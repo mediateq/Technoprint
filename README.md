@@ -9,16 +9,15 @@ This is the source for the main Technoprint company website, found at [Technopri
 * [Ebrahim Tehranipour `etp1711`](https://github.com/etp1711) Developer
 
 ## TECHNOLOGY
-* [HTML5](http://ali.md/wiki/html5)
-* [CSS3](http://ali.md/css3ref)
-* [1Styles](http://ali.md/1styles)
-* [JavaScript](http://ali.md/wiki/javascript)
-* [Zepto.js](http://ali.md/zepto.js)
-* [jQuery.js](http://ali.md/jquery.js)
-* [html5shiv](http://ali.md/html5shiv)
-* [PHP](http://ali.md/php/)
-* [MySQL](http://ali.md/wiki/mysql)
-* [1Cache](http://ali.md/1cache)
+* [HTML5](http://en.wikipedia.org/wiki/Html5)
+* [CSS3](https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference)
+* [1Styles](https://github.com/AliMD/1styles)
+* [JavaScript](http://en.wikipedia.org/wiki/Javascript)
+* [Zepto.js](http://zeptojs.com/zepto.js)
+* [jQuery.js](https://github.com/jquery/jquery)
+* [html5shiv](https://github.com/aFarkas/html5shiv)
+* [PHP](http://www.php.net/manual-lookup.php?pattern=)
+* [MySQL](http://en.wikipedia.org/wiki/Mysql)
 
 ### Report issues
 Check project and report your issue [here](https://github.com/mediateq/Technoprint/issues)    
