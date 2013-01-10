@@ -4,6 +4,10 @@ This is the source for the main Technoprint company website, found at [Technopri
 ## TEAM (1Devs Web Department)
 * [Mojtaba Amjadi `mojiAm`](https://github.com/mojiAm) Manager / Developer
 
+## THANKS (Contributors)
+* [Koorosh Karachi `Cyrus-krc`](https://github.com/Cyrus-krc) Developer / Designer
+* [Ebrahim Tehranipour `etp1711`](https://github.com/etp1711) Developer
+
 ## TECHNOLOGY
 * [HTML5](http://ali.md/wiki/html5)
 * [CSS3](http://ali.md/css3ref)
