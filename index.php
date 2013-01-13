@@ -44,10 +44,12 @@
 			</div>
 			<!-- Main Header -->
 			<div class="main-header">
-				<div class="container">
-					<div class="menu"></div>
-					<div class="logo"></div>
-					<div class="badboy"></div>
+				<div class="ray">
+					<div class="container">
+						<div class="menu"></div>
+						<div class="logo"></div>
+						<div class="badboy"></div>
+					</div>
 				</div>
 			</div>
 		</header>

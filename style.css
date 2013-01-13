@@ -62,6 +62,18 @@ header .top-header .container .left .tel p{
 	color: #A8ACAF;
 }
 /*Main Header*/
+header .main-header{
+	background-image: url('./images/bg-header-holder.jpg');
+	background-repeat: repeat-x;
+	background-position: center;
+}
+
+header .main-header .ray{
+	background-image: url('./images/rays.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 header .main-header .container{
 	min-height: 134px;
 }
