@@ -2,29 +2,110 @@ header,footer,section,div,*{
 	outline: 1px dashed red;
 }
 
-body{
+.contain{
 	min-height: 1835px;
 	background-image: url('./images/backpic.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
 }
 /*------------------------------Header-------------------------------*/
+/*Top Header*/
 header .top-header .container{
 	min-height: 28px;
 }
 
+header .top-header .container .menu{
+	min-width: 400px;
+	min-height: 28px;
+	float: right;
+}
+
+header .top-header .container .left{
+	width: 200px;
+	min-height: 28px;
+	float: left;
+}
+/*Main Header*/
 header .main-header .container{
 	min-height: 134px;
 }
+
+header .main-header .container .menu{
+	min-width: 700px;
+	min-height: 134px;
+	float: right;
+}
+
+header .main-header .container .logo{
+	min-width: 200px;
+	min-height: 134px;
+	float: left;
+}
 /*------------------------------Middle-------------------------------*/
 section.middle .container{
-	min-height: 1217px;
+	min-height: 1143px;
+	margin-top: 37px;
+	margin-bottom: 37px;
+}
+
+section.middle .container .slideshow{
+	min-height: 330px;
+}
+
+section.middle .container .hline{
+	min-height: 29px;
+}
+
+section.middle .container .text{
+	min-height: 71px;
+}
+
+section.middle .container .products{
+	min-height: 393px;
+}
+
+section.middle .container .client{
+	min-height: 255px;
 }
 /*------------------------------footer-------------------------------*/
+/*Main Footer*/
 footer .main-footer .container{
 	min-height: 368px;
 }
 
+footer .main-footer .container .first,
+footer .main-footer .container .second,
+footer .main-footer .container .third,
+footer .main-footer .container .forth{
+	float: right;
+	width: 213px;
+	margin-right: 32px;
+	min-height: 368px;
+}
+
+footer .main-footer .container .first{
+	margin-right: 0;
+}
+/*Bot Footer*/
 footer .bot-footer .container{
+	min-height: 88px;
+}
+
+footer .bot-footer .container .top{
+	float: right;
+	width: 50px;
+	height: 88px;
+}
+
+footer .bot-footer .container .menu{
+	min-width: 356px;
+	min-height: 88px;
+	margin-right: 55px;
+	margin-left: 315px;
+}
+
+footer .bot-footer .container .copyright{
+	float: left;
+	width: 301px;
 	min-height: 88px;
 }
