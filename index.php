@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
 <body>
+	<!-- Header -->
 	<header>
 		<div class="top-header">
 			<div class="container"></div>
@@ -15,11 +16,11 @@
 			<div class="container"></div>
 		</div>
 	</header>
-
-	<section class="banner">
+	<!-- Middle -->
+	<section class="middle">
 		<div class="container"></div>
 	</section>
-
+	<!-- footer -->
 	<footer>
 		<div class="main-footer">
 			<div class="container"></div>

@@ -8,7 +8,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: top center;
 }
-
+/*------------------------------Header-------------------------------*/
 header .top-header .container{
 	min-height: 28px;
 }
@@ -16,11 +16,11 @@ header .top-header .container{
 header .main-header .container{
 	min-height: 134px;
 }
-
-section.banner .container{
+/*------------------------------Middle-------------------------------*/
+section.middle .container{
 	min-height: 1217px;
 }
-
+/*------------------------------footer-------------------------------*/
 footer .main-footer .container{
 	min-height: 368px;
 }
