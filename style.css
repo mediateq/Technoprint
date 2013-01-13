@@ -12,23 +12,23 @@ header,footer,section,div,*{
 a{
 	text-decoration: none;
 }
+
+menu,p{
+	margin: 0;
+}
+
+p{
+	text-align: right;
+}
 /*------------------------------Header-------------------------------*/
 /*Top Header*/
 header .top-header{
 	background-color: #19292E;
 }
 
-header .top-header .container{
-	
-}
-
 header .top-header .container .menu{
 	min-width: 400px;
 	float: right;
-}
-
-header .top-header .container .menu nav menu{
-	margin: 0;
 }
 
 header .top-header .container .menu nav menu li{
@@ -45,7 +45,7 @@ header .top-header .container .menu nav menu li:first-child{
 header .top-header .container .menu nav menu li a{
 	display: block;
 	color: #A8ACAF;
-	margin: 3px 10px;
+	margin: 5px 10px;
 }
 
 header .top-header .container .left{
@@ -58,9 +58,9 @@ header .top-header .container .left .tel{
 }
 
 header .top-header .container .left .tel p{
-	margin: 0;
 	color: #A8ACAF;
 }
+
 /*Main Header*/
 header .main-header{
 	background-image: url('./images/bg-header-holder.jpg');
@@ -74,15 +74,32 @@ header .main-header .ray{
 	background-position: center;
 }
 
-header .main-header .container{
-	min-height: 134px;
-}
-
+/*Start Main Menu*/
 header .main-header .container .menu{
 	min-width: 700px;
-	min-height: 134px;
 	float: right;
+	margin-top: 35px;
 }
+
+header .main-header .container .menu nav menu li{
+	float: right;
+	background-image: url('./images/seperator-main-nav.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+header .main-header .container .menu nav menu li:first-child{
+	background-image: none;
+}
+
+header .main-header .container .menu nav menu li a{
+	display: block;
+	color: #fff;
+	font-size: 17px;
+	margin: 15px 20px;
+}
+
+/*End of Main Menu*/
 
 header .main-header .container .logo{
 	min-width: 200px;

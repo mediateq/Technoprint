@@ -46,7 +46,19 @@
 			<div class="main-header">
 				<div class="ray">
 					<div class="container">
-						<div class="menu"></div>
+						<div class="menu">
+							<nav>
+								<menu>
+									<li><a href="#">صفحه اصلی</a></li>
+									<li><a href="#">درباره ما</a></li>
+									<li><a href="#">محصولات</a></li>
+									<li><a href="#">گالری تصاویر</a></li>
+									<li><a href="#">گالری تصاویر</a></li>
+									<li><a href="#">تماس با ما</a></li>
+								</menu>
+								<div class="badboy"></div>
+							</nav>
+						</div>
 						<div class="logo"></div>
 						<div class="badboy"></div>
 					</div>
