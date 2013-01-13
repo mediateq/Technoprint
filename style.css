@@ -1,0 +1,6 @@
+div.container{
+	min-height: 1835px;
+	background-image: url('./images/backpic.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
