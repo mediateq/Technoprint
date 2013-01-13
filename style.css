@@ -1,6 +1,30 @@
-div.container{
+header,footer,section,div,*{
+	outline: 1px dashed red;
+}
+
+body{
 	min-height: 1835px;
-	background-image: url('./images/backpic.png');
+	background-image: url('./images/backpic.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
+}
+
+header .top-header .container{
+	min-height: 28px;
+}
+
+header .main-header .container{
+	min-height: 134px;
+}
+
+section.banner .container{
+	min-height: 1217px;
+}
+
+footer .main-footer .container{
+	min-height: 368px;
+}
+
+footer .bot-footer .container{
+	min-height: 88px;
 }

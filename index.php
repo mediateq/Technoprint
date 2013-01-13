@@ -7,8 +7,26 @@
 	<link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
 <body>
-	<div class="contain">
+	<header>
+		<div class="top-header">
+			<div class="container"></div>
+		</div>
+		<div class="main-header">
+			<div class="container"></div>
+		</div>
+	</header>
+
+	<section class="banner">
 		<div class="container"></div>
-	</div>
+	</section>
+
+	<footer>
+		<div class="main-footer">
+			<div class="container"></div>
+		</div>
+		<div class="bot-footer">
+			<div class="container"></div>
+		</div>
+	</footer>
 </body>
 </html>
