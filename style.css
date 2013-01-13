@@ -8,6 +8,10 @@ header,footer,section,div,*{
 	background-repeat: no-repeat;
 	background-position: top center;
 }
+
+a{
+	text-decoration: none;
+}
 /*------------------------------Header-------------------------------*/
 /*Top Header*/
 header .top-header{
@@ -15,18 +19,37 @@ header .top-header{
 }
 
 header .top-header .container{
-	min-height: 28px;
+	
 }
 
 header .top-header .container .menu{
 	min-width: 400px;
-	min-height: 28px;
 	float: right;
+}
+
+header .top-header .container .menu nav menu{
+	margin: 0;
+}
+
+header .top-header .container .menu nav menu li{
+	float: right;
+	background-image: url('./images/separator-toolbar.png');
+	background-repeat: no-repeat;
+	background-position: right center; 
+}
+
+header .top-header .container .menu nav menu li:first-child{
+	background-image: none;
+}
+
+header .top-header .container .menu nav menu li a{
+	display: block;
+	color: #A8ACAF;
+	margin: 3px 10px;
 }
 
 header .top-header .container .left{
 	width: 200px;
-	min-height: 28px;
 	float: left;
 }
 /*Main Header*/

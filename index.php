@@ -13,7 +13,25 @@
 			<!-- Top Header -->
 			<div class="top-header">
 				<div class="container">
-					<div class="menu"></div>
+					<div class="menu">
+						<nav>
+							<menu>
+								<li>
+									<a href="#">صفحه اصلی</a>
+								</li>
+								<li>
+									<a href="#">درباره ما</a>
+								</li>
+								<li>
+									<a href="#">نقشه سایت</a>
+								</li>
+								<li>
+									<a href="#">تماس با ما</a>
+								</li>
+							</menu>
+							<div class="badboy"></div>
+						</nav>
+					</div>
 					<div class="left"></div>
 					<div class="badboy"></div>
 				</div>
@@ -47,6 +65,7 @@
 					<div class="second"></div>
 					<div class="third"></div>
 					<div class="forth"></div>
+					<div class="badboy"></div>
 				</div>
 			</div>
 			<!-- Bot Footer -->
@@ -55,6 +74,7 @@
 					<div class="top"></div>
 					<div class="copyright"></div>
 					<div class="menu"></div>
+					<div class="badboy"></div>
 				</div>
 			</div>
 		</footer>
