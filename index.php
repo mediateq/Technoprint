@@ -32,7 +32,13 @@
 							<div class="badboy"></div>
 						</nav>
 					</div>
-					<div class="left"></div>
+					<div class="left">
+						<div class="tel">
+							<p>
+								Tel: +98(511) 767 7671
+							</p>
+						</div>
+					</div>
 					<div class="badboy"></div>
 				</div>
 			</div>
