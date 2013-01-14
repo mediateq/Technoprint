@@ -60,7 +60,7 @@
 			</div>
 		</header>
 		<!-- Middle -->
-		<div class="shadow"></div>
+		<div class="shadow-top"></div>
 		<section class="middle">
 			<div class="container">
 				<div class="slideshow"></div>

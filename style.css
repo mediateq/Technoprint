@@ -2,13 +2,13 @@
 	outline: 1px dashed red;
 }
 */
-.contain{
+/*.contain{
 	min-height: 1835px;
 	background-image: url('./images/backpic.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
 }
-
+*/
 a{
 	text-decoration: none;
 	font-family: 'tahoma';
@@ -133,19 +133,18 @@ header .main-header .container .logo span.print{
 	color: #B1B1B1;
 }
 /*------------------------------Middle-------------------------------*/
-div.shadow{
+div.shadow-top{
 	min-height: 37px;
-	background-image: url('images/bg-div-main.jpg');
+	background-image: url('./images/bg-div-main.jpg');
 	background-repeat: repeat-x;
 }
 
-div.shadow .container{
-
+section.middle{
+	background-color: #f3f3f3;
 }
 
 section.middle .container{
 	min-height: 1143px;
-	margin-bottom: 37px;
 }
 
 section.middle .container .slideshow{
@@ -169,8 +168,14 @@ section.middle .container .client{
 }
 /*------------------------------footer-------------------------------*/
 /*Main Footer*/
+footer .main-footer{
+	background-image: url('./images/bg-footer.jpg');
+	background-repeat: repeat-x;
+	background-color: #19292E;
+}
+
 footer .main-footer .container{
-	min-height: 368px;
+	min-height: 405px;
 }
 
 footer .main-footer .container .first,
@@ -187,6 +192,12 @@ footer .main-footer .container .first{
 	margin-right: 0;
 }
 /*Bot Footer*/
+footer .bot-footer{
+	background-image: url('./images/bg-footer-bottom.jpg');
+	background-repeat: repeat-x;
+	background-color: #111C20;
+}
+
 footer .bot-footer .container{
 	min-height: 88px;
 }
