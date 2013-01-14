@@ -11,6 +11,7 @@
 
 a{
 	text-decoration: none;
+	font-family: 'tahoma';
 }
 
 menu,p{
@@ -45,40 +46,47 @@ header .top-header .container .menu nav menu li:first-child{
 header .top-header .container .menu nav menu li a{
 	display: block;
 	color: #A8ACAF;
-	margin: 5px 10px;
+	margin: 6px 10px;
+	font-size: 12px;
+}
+
+header .top-header .container .menu nav menu li:first-child a{
+	margin-right: 0;
 }
 
 header .top-header .container .left{
-	width: 200px;
+	width: 300px;
 	float: left;
 }
 
 header .top-header .container .left .tel{
-	margin: 3px 0;
+	margin: 6px 0;
 }
 
 header .top-header .container .left .tel p{
 	color: #A8ACAF;
 	text-align: left;
+	font-size: 12px;
 }
 
 /*Main Header*/
 header .main-header{
 	background-image: url('./images/bg-header-holder.jpg');
 	background-repeat: repeat-x;
+	background-color: #19292E;
 }
 
 header .main-header .ray{
 	background-image: url('./images/rays.png');
 	background-repeat: no-repeat;
 	background-position: center;
+	padding: 32px 0;
 }
 
 /*Start Main Menu*/
 header .main-header .container .menu{
-	min-width: 700px;
 	float: right;
-	padding: 45px 0;
+	margin-top: 18px;
 }
 
 header .main-header .container .menu nav menu li{
@@ -95,17 +103,19 @@ header .main-header .container .menu nav menu li:first-child{
 header .main-header .container .menu nav menu li a{
 	display: block;
 	color: #fff;
-	font-size: 17px;
-	margin: 3px 20px;
+	font-size: 16px;
+	margin: 3px 7px;
+}
+
+header .main-header .container .menu nav menu li:first-child a{
+	margin-right: 0;
 }
 
 /*End of Main Menu*/
 
 header .main-header .container .logo{
-	min-width: 200px;
+	width: 215px;
 	float: left;
-	padding: 28px 0;
-	margin: 0 20px;
 }
 
 header .main-header .container .logo h2{
@@ -123,9 +133,18 @@ header .main-header .container .logo span.print{
 	color: #B1B1B1;
 }
 /*------------------------------Middle-------------------------------*/
+div.shadow{
+	min-height: 37px;
+	background-image: url('images/bg-div-main.jpg');
+	background-repeat: repeat-x;
+}
+
+div.shadow .container{
+
+}
+
 section.middle .container{
 	min-height: 1143px;
-	margin-top: 37px;
 	margin-bottom: 37px;
 }
 
