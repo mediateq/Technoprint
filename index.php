@@ -16,18 +16,10 @@
 					<div class="menu">
 						<nav>
 							<menu>
-								<li>
-									<a href="#">صفحه اصلی</a>
-								</li>
-								<li>
-									<a href="#">درباره ما</a>
-								</li>
-								<li>
-									<a href="#">نقشه سایت</a>
-								</li>
-								<li>
-									<a href="#">تماس با ما</a>
-								</li>
+								<li><a href="#">صفحه اصلی</a></li>
+								<li><a href="#">درباره ما</a></li>
+								<li><a href="#">نقشه سایت</a></li>
+								<li><a href="#">تماس با ما</a></li>
 							</menu>
 							<div class="badboy"></div>
 						</nav>
@@ -52,14 +44,16 @@
 									<li><a href="#">صفحه اصلی</a></li>
 									<li><a href="#">درباره ما</a></li>
 									<li><a href="#">محصولات</a></li>
-									<li><a href="#">گالری تصاویر</a></li>
+									<li><a href="#">خدمات و پشتیبانی</a></li>
 									<li><a href="#">گالری تصاویر</a></li>
 									<li><a href="#">تماس با ما</a></li>
 								</menu>
 								<div class="badboy"></div>
 							</nav>
 						</div>
-						<div class="logo"></div>
+						<div class="logo">
+							<a href="#"><img src="./images/logo.png" alt="techno peint" /><h2><span class="techno">Techno </span><span class="print"> Print</span></h2></a>
+						</div>
 						<div class="badboy"></div>
 					</div>
 				</div>
