@@ -5,6 +5,9 @@
 	<title>Technoprint</title>
 	<link rel="stylesheet" type="text/css" href="./1styles.css" />
 	<link rel="stylesheet" type="text/css" href="./style.css" />
+	<link rel="stylesheet" type="text/css" href="./slideshow.css" />
+	<script src="./js/jquery.js" type="text/javascript"></script>
+    <script src="./js/slideshow.js" type="text/javascript"></script>
 </head>
 <body>
 	<div class="contain">
@@ -63,7 +66,156 @@
 		<div class="shadow-top"></div>
 		<section class="middle">
 			<div class="container">
-				<div class="slideshow"></div>
+				<div class="slideshow">
+					<div class="content"> 
+				        <div id="galleria">
+				            <a href="./images/others/1.jpg">
+				                <img 
+				                    src="./images/others/1.jpg",
+				                    data-big="./images/others/1.jpg"
+				                    data-title="Biandintz eta zaldiak"
+				                    data-description="Horses on Bianditz mountain, in Navarre, Spain."
+				                >
+				            </a>
+				            <a href="./images/others/2.jpg">
+				                <img 
+				                    src="./images/others/2.jpg",
+				                    data-big="./images/others/2.jpg"
+				                    data-title="Athabasca Rail"
+				                    data-description="The Athabasca River railroad track at the mouth of Brulé Lake in Alberta, Canada."
+				                >
+				            </a>
+				            <a href="./images/others/3.jpg">
+				                <img 
+				                    src="./images/others/3.jpg",
+				                    data-big="./images/others/3.jpg"
+				                    data-title="Back-scattering crepuscular rays"
+				                    data-description="Picture of the day on Wikimedia Commons 26 September 2010."
+				                >
+				            </a>
+				            <a href="./images/others/4.jpg">
+				                <img 
+				                    src="./images/others/4.jpg",
+				                    data-big="./images/others/4.jpg"
+				                    data-title="Interior convento"
+				                    data-description="Interior view of Yuriria Convent, founded in 1550."
+				                >
+				            </a>
+				            <a href="./images/others/5.jpg">
+				                <img 
+				                    src="./images/others/5.jpg",
+				                    data-big="./images/others/5.jpg"
+				                    data-title="Oxbow Bend outlook"
+				                    data-description="View over the Snake River to the Mount Moran with the Skillet Glacier."
+				                >
+				            </a>
+				            <a href="./images/others/6.jpg">
+				                <img 
+				                    src="./images/others/6.jpg",
+				                    data-big="./images/others/6.jpg"
+				                    data-title="Hazy blue hour"
+				                    data-description="Hazy blue hour in Grand Canyon. View from the South Rim."
+				                >
+				            </a>
+				            <a href="./images/others/7.jpg">
+				                <img 
+				                    src="./images/others/7.jpg",
+				                    data-big="./images/others/7.jpg"
+				                    data-title="Biandintz eta zaldiak"
+				                    data-description="Horses on Bianditz mountain, in Navarre, Spain."
+				                >
+				            </a>
+				            <a href="./images/others/8.jpg">
+				                <img 
+				                    src="./images/others/8.jpg",
+				                    data-big="./images/others/8.jpg"
+				                    data-title="Athabasca Rail"
+				                    data-description="The Athabasca River railroad track at the mouth of Brulé Lake in Alberta, Canada."
+				                >
+				            </a>
+				            <a href="./images/others/9.jpg">
+				                <img 
+				                    src="./images/others/9.jpg",
+				                    data-big="./images/others/9.jpg"
+				                    data-title="Back-scattering crepuscular rays"
+				                    data-description="Picture of the day on Wikimedia Commons 26 September 2010."
+				                >
+				            </a>
+				            <a href="./images/others/1.jpg">
+				                <img 
+				                    src="./images/others/1.jpg",
+				                    data-big="./images/others/1.jpg"
+				                    data-title="Interior convento"
+				                    data-description="Interior view of Yuriria Convent, founded in 1550."
+				                >
+				            </a>
+				            <a href="./images/others/2.jpg">
+				                <img 
+				                    src="./images/others/2.jpg",
+				                    data-big="./images/others/2.jpg"
+				                    data-title="Oxbow Bend outlook"
+				                    data-description="View over the Snake River to the Mount Moran with the Skillet Glacier."
+				                >
+				            </a>
+				            <a href="./images/others/3.jpg">
+				                <img 
+				                    src="./images/others/3.jpg",
+				                    data-big="./images/others/3.jpg"
+				                    data-title="Hazy blue hour"
+				                    data-description="Hazy blue hour in Grand Canyon. View from the South Rim."
+				                >
+				            </a>
+				            <a href="./images/others/4.jpg">
+				                <img 
+				                    src="./images/others/4.jpg",
+				                    data-big="./images/others/4.jpg"
+				                    data-title="Biandintz eta zaldiak"
+				                    data-description="Horses on Bianditz mountain, in Navarre, Spain."
+				                >
+				            </a>
+				            <a href="./images/others/5.jpg">
+				                <img 
+				                    src="./images/others/5.jpg",
+				                    data-big="./images/others/5.jpg"
+				                    data-title="Athabasca Rail"
+				                    data-description="The Athabasca River railroad track at the mouth of Brulé Lake in Alberta, Canada."
+				                >
+				            </a>
+				            <a href="./images/others/6.jpg">
+				                <img 
+				                    src="./images/others/6.jpg",
+				                    data-big="./images/others/6.jpg"
+				                    data-title="Back-scattering crepuscular rays"
+				                    data-description="Picture of the day on Wikimedia Commons 26 September 2010."
+				                >
+				            </a>
+				            <a href="./images/others/7.jpg">
+				                <img 
+				                    src="./images/others/7.jpg",
+				                    data-big="./images/others/7.jpg"
+				                    data-title="Interior convento"
+				                    data-description="Interior view of Yuriria Convent, founded in 1550."
+				                >
+				            </a>
+				            <a href="./images/others/8.jpg">
+				                <img 
+				                    src="./images/others/8.jpg",
+				                    data-big="./images/others/8.jpg"
+				                    data-title="Oxbow Bend outlook"
+				                    data-description="View over the Snake River to the Mount Moran with the Skillet Glacier."
+				                >
+				            </a>
+				            <a href="./images/others/9.jpg">
+				                <img 
+				                    src="./images/others/9.jpg",
+				                    data-big="./images/others/9.jpg"
+				                    data-title="Hazy blue hour"
+				                    data-description="Hazy blue hour in Grand Canyon. View from the South Rim."
+				                >
+				            </a>
+				        </div>
+				    </div>
+				</div>
 				<div class="hline"></div>
 				<div class="text"></div>
 				<div class="hline"></div>

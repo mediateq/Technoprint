@@ -2,13 +2,6 @@ header,footer,section,div,*{
 	outline: 1px dashed red;
 }
 
-/*.contain{
-	min-height: 1835px;
-	background-image: url('./images/backpic.jpg');
-	background-repeat: no-repeat;
-	background-position: top center;
-}
-*/
 a{
 	text-decoration: none;
 	font-family: 'tahoma';
