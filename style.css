@@ -1,7 +1,7 @@
-/*header,footer,section,div,*{
+header,footer,section,div,*{
 	outline: 1px dashed red;
 }
-*/
+
 /*.contain{
 	min-height: 1835px;
 	background-image: url('./images/backpic.jpg');
@@ -186,6 +186,7 @@ footer .main-footer .container .forth{
 	width: 213px;
 	margin-right: 32px;
 	min-height: 368px;
+	margin-top: 90px;
 }
 
 footer .main-footer .container .first{
