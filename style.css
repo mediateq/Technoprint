@@ -5,13 +5,14 @@ header,footer,section,div,*{
 a{
 	text-decoration: none;
 	font-family: 'tahoma';
+	text-align: right;
 }
 
 menu,p{
 	margin: 0;
 }
 
-p{
+h2,p{
 	font-family: 'tahoma';
 	text-align: right;
 }
@@ -164,6 +165,10 @@ section.middle .container .text p{
 	line-height: 2;
 }
 
+section.middle .container .products{
+	margin-bottom: 40px;
+}
+
 section.middle .container .products .first,
 section.middle .container .products .second,
 section.middle .container .products .third,
@@ -194,6 +199,18 @@ section.middle .container .products .frame img{
 	height: 111px;
 	margin-top: 8px;
 	margin-left: 9px;
+}
+
+section.middle .container .products .desc{
+	margin-right: 5px;
+}
+
+section.middle .container .products .desc .title h2{
+	font-size: 18px;
+}
+
+section.middle .container .products .desc .txt p{
+	font-size: 14px;
 }
 
 section.middle .container .client{
