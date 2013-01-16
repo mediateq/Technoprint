@@ -225,16 +225,24 @@
 				</div>
 				<div class="products">
 					<div class="first">
-						<div class="frame"></div>
+						<div class="frame">
+							<a href="#"><img src="./images/others/frame1.jpg" alt="" /></a>
+						</div>
 					</div>
 					<div class="second">
-						<div class="frame"></div>
+						<div class="frame">
+							<a href="#"><img src="./images/others/frame2.jpg" alt="" /></a>
+						</div>
 					</div>
 					<div class="third">
-						<div class="frame"></div>
+						<div class="frame">
+							<a href="#"><img src="./images/others/frame3.jpg" alt="" /></a>
+						</div>
 					</div>
 					<div class="forth">
-						<div class="frame"></div>
+						<div class="frame">
+							<a href="#"><img src="./images/others/frame4.jpg" alt="" /></a>
+						</div>
 					</div>
 					<div class="badboy"></div>
 				</div>
