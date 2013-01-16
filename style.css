@@ -1,7 +1,7 @@
-/*header,footer,section,div,*{
+header,footer,section,div,*{
 	outline: 1px dashed red;
 }
-*/
+
 a{
 	text-decoration: none;
 	font-family: 'tahoma';
@@ -153,7 +153,7 @@ section.middle .container .hline{
 
 section.middle .container .text{
 	min-height: 71px;
-	margin-top: 40px;
+	margin: 40px 0;
 	padding: 0 5px;
 }
 
@@ -164,8 +164,29 @@ section.middle .container .text p{
 	line-height: 2;
 }
 
-section.middle .container .products{
-	min-height: 393px;
+section.middle .container .products .first,
+section.middle .container .products .second,
+section.middle .container .products .third,
+section.middle .container .products .forth{
+	float: right;
+	width: 213px;
+	margin-right: 31px;
+	min-height: 368px;
+}
+
+section.middle .container .products .first .frame,
+section.middle .container .products .second .frame,
+section.middle .container .products .third .frame,
+section.middle .container .products .forth .frame{
+	width: 208px;
+	height: 140px;
+	background-image: url('./images/image-frame-sprite-2.png');
+	background-repeat: no-repeat;
+	background-position: -2px -465px;
+}
+
+section.middle .container .products .first{
+	margin-right: 0;
 }
 
 section.middle .container .client{

@@ -223,7 +223,21 @@
 					</p>
 					<div class="hline"></div>
 				</div>
-				<div class="products"></div>
+				<div class="products">
+					<div class="first">
+						<div class="frame"></div>
+					</div>
+					<div class="second">
+						<div class="frame"></div>
+					</div>
+					<div class="third">
+						<div class="frame"></div>
+					</div>
+					<div class="forth">
+						<div class="frame"></div>
+					</div>
+					<div class="badboy"></div>
+				</div>
 				<div class="client"></div>
 			</div>
 		</section>
