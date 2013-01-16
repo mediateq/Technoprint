@@ -1,7 +1,7 @@
-header,footer,section,div,*{
+/*header,footer,section,div,*{
 	outline: 1px dashed red;
 }
-
+*/
 a{
 	text-decoration: none;
 	font-family: 'tahoma';
@@ -12,6 +12,7 @@ menu,p{
 }
 
 p{
+	font-family: 'tahoma';
 	text-align: right;
 }
 /*------------------------------Header-------------------------------*/
@@ -141,15 +142,26 @@ section.middle .container{
 }
 
 section.middle .container .slideshow{
-	min-height: 330px;
+	padding-top: 6px;
 }
 
 section.middle .container .hline{
-	min-height: 29px;
+	min-height: 2px;
+	background-image: url('./images/separator3.gif');
+	background-repeat: repeat-x;
 }
 
 section.middle .container .text{
 	min-height: 71px;
+	margin-top: 40px;
+	padding: 0 5px;
+}
+
+section.middle .container .text p{
+	padding: 10px 0;
+	margin-bottom: 2px;
+	font-size: 18px;
+	line-height: 2;
 }
 
 section.middle .container .products{

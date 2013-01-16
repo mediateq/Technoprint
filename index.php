@@ -216,9 +216,13 @@
 				        </div>
 				    </div>
 				</div>
-				<div class="hline"></div>
-				<div class="text"></div>
-				<div class="hline"></div>
+				<div class="text">
+					<div class="hline"></div>
+					<p>
+						پیام مورد نظر پیام مورد نظر پیام مورد نظر پیام مورد نظر پیام مورد نظر پیام مورد نظر پیام مورد نظر پیام مورد نظر پیام مورد نظر پیام مورد نظر پیام مورد نظر پیام مورد نظر
+					</p>
+					<div class="hline"></div>
+				</div>
 				<div class="products"></div>
 				<div class="client"></div>
 			</div>
