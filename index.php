@@ -290,7 +290,25 @@
 					</div>
 					<div class="badboy"></div>
 				</div>
-				<div class="client"></div>
+				<div class="partner">
+					<div class="hline"></div>
+					<div class="first">
+						<a href="http://www.zebra.com/gb/en.html" target="_blank"><img src="./images/others/Zebra-Logo.png" alt="zebra"></a>
+					</div>
+					<div class="second">
+						<a href="http://www.datalogic.com" target="_blank"><img src="./images/others/datalogic-Logo.png" alt="datalogic"></a>
+					</div>
+					<div class="third">
+						<a href="http://www.motorolasolutions.com/US-EN/Home" target="_blank"><img src="./images/others/symbol_logo.png" alt="symbol"></a>
+					</div>
+					<div class="forth">
+						<a href="http://honeywell.com/Pages/Home.aspx" target="_blank"><img src="./images/others/honeywell-logo.png" alt="honeywell"></a>
+					</div>
+					<div class="fifth">
+						<a href="http://www.metrologic.com.au" target="_blank"><img src="./images/others/metrologic-logo.png" alt="metrologic"></a>
+					</div>
+					<div class="badboy"></div>
+				</div>
 			</div>
 		</section>
 		<!-- footer -->

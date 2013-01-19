@@ -1,7 +1,7 @@
-header,footer,section,div,*{
+/*header,footer,section,div,*{
 	outline: 1px dashed red;
 }
-
+*/
 a{
 	text-decoration: none;
 	font-family: 'tahoma';
@@ -138,10 +138,6 @@ section.middle{
 	background-color: #f3f3f3;
 }
 
-section.middle .container{
-	min-height: 1143px;
-}
-
 section.middle .container .slideshow{
 	padding-top: 6px;
 }
@@ -213,8 +209,36 @@ section.middle .container .products .desc .txt p{
 	font-size: 14px;
 }
 
-section.middle .container .client{
-	min-height: 255px;
+section.middle .container .partner{
+	padding: 0 5px;
+}
+
+section.middle .container .partner .first,
+section.middle .container .partner .second,
+section.middle .container .partner .third,
+section.middle .container .partner .forth,
+section.middle .container .partner .fifth{
+	float: right;
+	width: 172px;
+	min-height: 57px;
+	margin-right: 20px;
+	outline: 1px solid #e3e1e1;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+section.middle .container .partner .first img,
+section.middle .container .partner .second img,
+section.middle .container .partner .third img,
+section.middle .container .partner .forth img,
+section.middle .container .partner .fifth img{
+	width: 172px;
+	min-height: 57px;
+}
+
+section.middle .container .partner .first{
+	margin-right: 0;
 }
 /*------------------------------footer-------------------------------*/
 /*Main Footer*/
