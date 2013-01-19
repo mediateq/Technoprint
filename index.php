@@ -47,7 +47,7 @@
 									<li><a href="#">صفحه اصلی</a></li>
 									<li><a href="#">درباره ما</a></li>
 									<li><a href="#">محصولات</a></li>
-									<li><a href="#">خدمات و پشتیبانی</a></li>
+									<li><a href="#">مقالات</a></li>
 									<li><a href="#">گالری تصاویر</a></li>
 									<li><a href="#">تماس با ما</a></li>
 								</menu>
@@ -316,10 +316,26 @@
 			<!-- Main Footer -->
 			<div class="main-footer">
 				<div class="container">
-					<div class="first"></div>
-					<div class="second"></div>
-					<div class="third"></div>
-					<div class="forth"></div>
+					<div class="first">
+						<div class="tit">
+							<h2>مطالب مرتبط</h2>
+						</div>
+					</div>
+					<div class="second">
+						<div class="tit">
+							<h2>لینک های مفید</h2>
+						</div>
+					</div>
+					<div class="third">
+						<div class="tit">
+							<h2>پیوستن به ما</h2>
+						</div>
+					</div>
+					<div class="forth">
+						<div class="tit">
+							<h2>تماس با ما</h2>
+						</div>
+					</div>
 					<div class="badboy"></div>
 				</div>
 			</div>
