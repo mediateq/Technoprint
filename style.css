@@ -277,7 +277,7 @@ footer .main-footer .container .title h2{
 	margin: 0;
 }
 
-footer .main-footer .container .text p{
+footer .main-footer .container p{
 	color: #7A93A1;
 	font-size: 15px;
 }
@@ -285,6 +285,16 @@ footer .main-footer .container .text p{
 footer .main-footer .container .link{
 	margin-bottom: 20px;
 }
+
+footer .main-footer .container .second .click-here{
+	margin-bottom: 17px;
+}
+
+footer .main-footer .container .second .click-here img{
+	float: right;
+	margin-left: 18px;
+}
+
 /*Bottom of  Footer*/
 footer .bot-footer{
 	background-image: url('./images/bg-footer-bottom.jpg');

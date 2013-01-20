@@ -331,6 +331,27 @@
 						<div class="tit">
 							<h2>لینک های مفید</h2>
 						</div>
+						<div class="click-here">
+							<a href="#" title="">
+								<img src="./images/footer-useful-link.png" alt="" />
+							</a>
+							<p>لینک های مفید خود را در این قسمت قرار داده تا کاربر...</p>
+						</div>
+						<div class="badboy"></div>
+						<div class="click-here">
+							<a href="#" title="">
+								<img src="./images/footer-useful-link.png" alt="" />
+							</a>
+							<p>لینک های مفید خود را در این قسمت قرار داده تا کاربر...</p>
+						</div>
+						<div class="badboy"></div>
+						<div class="click-here">
+							<a href="#" title="">
+								<img src="./images/footer-useful-link.png" alt="" />
+							</a>
+							<p>لینک های مفید خود را در این قسمت قرار داده تا کاربر...</p>
+						</div>
+						<div class="badboy"></div>
 					</div>
 					<div class="third">
 						<div class="tit">
