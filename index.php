@@ -320,6 +320,12 @@
 						<div class="tit">
 							<h2>مطالب مرتبط</h2>
 						</div>
+						<div class="title"><h2>تیتر مقاله اول</h2></div>
+						<div class="text"><p>متن مقاله اول متن مقاله اول متن مقاله اول متن مقاله اول متن مقاله اول</p></div>
+						<div class="link"><p><a href="#">بیشتر</a></p></div>
+						<div class="title"><h2>تیتر مقاله دوم</h2></div>
+						<div class="text"><p>متن مقاله دوم متن مقاله دوم متن مقاله دوم متن مقاله دوم متن مقاله دوم متن مقاله دوم</p></div>
+						<div class="link"><p><a href="#">بیشتر</a></p></div>
 					</div>
 					<div class="second">
 						<div class="tit">

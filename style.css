@@ -269,6 +269,22 @@ footer .main-footer .container h2{
 footer .main-footer .container .first{
 	margin-right: 0;
 }
+
+footer .main-footer .container .title h2{
+	color: #fff;
+	font-size: 16px;
+	border-bottom: 0;
+	margin: 0;
+}
+
+footer .main-footer .container .text p{
+	color: #7A93A1;
+	font-size: 15px;
+}
+
+footer .main-footer .container .link{
+	margin-bottom: 20px;
+}
 /*Bottom of  Footer*/
 footer .bot-footer{
 	background-image: url('./images/bg-footer-bottom.jpg');
