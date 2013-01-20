@@ -357,6 +357,13 @@
 						<div class="tit">
 							<h2>پیوستن به ما</h2>
 						</div>
+						<ul>
+							<li class="rss"><a href="#"></a></li>
+							<li class="twitter"><a href="#"></a></li>
+							<li class="facebook"><a href="#"></a></li>
+							<li class="flickr"><a href="#"></a></li>
+							<li class="youtube"><a href="#"></a></li>
+						</ul>
 					</div>
 					<div class="forth">
 						<div class="tit">
