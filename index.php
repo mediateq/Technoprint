@@ -355,7 +355,7 @@
 					</div>
 					<div class="third">
 						<div class="tit">
-							<h2>پیوستن به ما</h2>
+							<h2>پیگیری ما</h2>
 						</div>
 						<ul>
 							<li class="rss"><a href="#"></a></li>
@@ -367,8 +367,17 @@
 					</div>
 					<div class="forth">
 						<div class="tit">
-							<h2>تماس با ما</h2>
+							<h2>پیوستن به ما</h2>
 						</div>
+						<form action="mail.php">
+							<p>* نام و نام خانوادگی</p>
+							<input type="text" />
+							<p>* ایمیل</p>
+							<input type="email" />
+							<p>پر کردن فیلدهای * الزامیست</p>
+							<button type="submit"><p>ارسال</p></button>
+						</form>
+						<div class="badboy"></div>
 					</div>
 					<div class="badboy"></div>
 				</div>
