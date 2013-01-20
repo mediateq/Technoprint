@@ -385,9 +385,27 @@
 			<!-- Bot Footer -->
 			<div class="bot-footer">
 				<div class="container">
-					<div class="top"></div>
-					<div class="copyright"></div>
-					<div class="menu"></div>
+					<div class="top">
+						<a href="#"><p>بالا</p></a>
+						<div class="badboy"></div>
+					</div>
+					<div class="copyright">
+						<p>
+							.کپی رایت 1391 - کلیه حقوق این سایت متعلق به تکنو پرینت می باشد
+						</p>
+					</div>
+					<div class="menu">
+						<nav>
+							<menu>
+								<li><p><a href="#">صفحه اصلی</a></p></li>
+								<li><p><a href="#">درباره ما</a></p></li>
+								<li><p><a href="#">مقالات</a></p></li>
+								<li><p><a href="#">نقشه سایت</a></p></li>
+								<li><p><a href="#">تماس با ما</a></p></li>
+							</menu>
+							<div class="badboy"></div>
+						</nav>
+					</div>
 					<div class="badboy"></div>
 				</div>
 			</div>

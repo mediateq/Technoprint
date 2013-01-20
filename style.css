@@ -1,7 +1,7 @@
-header,footer,section,div,*{
+/*header,footer,section,div,*{
 	outline: 1px dashed red;
 }
-
+*/
 a{
 	text-decoration: none;
 	font-family: 'tahoma';
@@ -410,24 +410,62 @@ footer .bot-footer{
 }
 
 footer .bot-footer .container{
-	min-height: 88px;
+	padding: 33px 0;
 }
 
 footer .bot-footer .container .top{
 	float: right;
 	width: 50px;
-	height: 88px;
+}
+
+footer .bot-footer .container .top a{
+	width: 45px;
+	height: 22px;
+	display: block;
+	float: right;
+	background-image: url('./images/arrow-up-footer.png');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+footer .bot-footer .container .top p{
+	margin-right: 15px;
+	font-size: 13px;
+	margin-top: 3px;
+	color: #fff;
 }
 
 footer .bot-footer .container .menu{
-	min-width: 356px;
-	min-height: 88px;
 	margin-right: 55px;
-	margin-left: 315px;
+	margin-left: 405px;
+}
+
+footer .bot-footer .container .menu nav{
+	margin-top: 2px;
+}
+
+footer .bot-footer .container .menu nav menu li{
+	float: right;
+}
+
+footer .bot-footer .container .menu nav menu li a{
+	display: block;
+	margin: 0 5px;
+	color: #BCBCBC;
+}
+
+footer .bot-footer .container .menu nav menu li p{
+	font-size: 13px;
 }
 
 footer .bot-footer .container .copyright{
 	float: left;
-	width: 301px;
-	min-height: 88px;
+	width: 400px;
+}
+
+footer .bot-footer .container .copyright p{
+	color: #BCBCBC;
+	font-size: 12px;
+	margin-top: 4px;
+	text-align: left;
 }
