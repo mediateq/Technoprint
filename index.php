@@ -44,10 +44,37 @@
 						<div class="menu">
 							<nav>
 								<menu>
-									<li><a href="#">صفحه اصلی</a></li>
+									<li><a href="#">صفحه اصلی</a>
+										<menu>
+											<li><a href="#">صفحه اصلی</a></li>
+											<li><a href="#">درباره ما</a></li>
+											<li><a href="#">محصولات</a></li>
+											<li><a href="#">مقالات</a></li>
+											<li><a href="#">گالری تصاویر</a></li>
+											<li><a href="#">تماس با ما</a></li>
+										</menu>
+									</li>
 									<li><a href="#">درباره ما</a></li>
-									<li><a href="#">محصولات</a></li>
-									<li><a href="#">مقالات</a></li>
+									<li><a href="#">محصولات</a>
+										<menu>
+											<li><a href="#">صفحه اصلی</a></li>
+											<li><a href="#">درباره ما</a></li>
+											<li><a href="#">محصولات</a></li>
+											<li><a href="#">مقالات</a></li>
+											<li><a href="#">گالری تصاویر</a></li>
+											<li><a href="#">تماس با ما</a></li>
+										</menu>
+									</li>
+									<li><a href="#">مقالات</a>
+										<menu>
+											<li><a href="#">صفحه اصلی</a></li>
+											<li><a href="#">درباره ما</a></li>
+											<li><a href="#">محصولات</a></li>
+											<li><a href="#">مقالات</a></li>
+											<li><a href="#">گالری تصاویر</a></li>
+											<li><a href="#">تماس با ما</a></li>
+										</menu>
+									</li>
 									<li><a href="#">گالری تصاویر</a></li>
 									<li><a href="#">تماس با ما</a></li>
 								</menu>

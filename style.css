@@ -104,7 +104,8 @@ header .main-header .container .menu{
 	margin-top: 10px;
 }
 
-header .main-header .container .menu nav menu li{
+header .main-header .container .menu nav > menu >  li{
+	position: relative;
 	float: right;
 	background-image: url('./images/seperator-main-nav.png');
 	background-repeat: no-repeat;
@@ -121,20 +122,11 @@ header .main-header .container .menu nav menu li a{
 	font-size: 16px;
 	padding: 10px 15px;
 	border-radius: 5px;
-	-webkit-transition: background-color 100ms;
-	-moz-transition: background-color 100ms;
-	-ms-transition: background-color 100ms;
-	-o-transition: background-color 100ms;
-	transition: background-color 100ms;
-}
-
-header .main-header .container .menu nav menu li a:hover{
-	background-color: #222;
-	-webkit-transition: background-color 300ms;
-	-moz-transition: background-color 300ms;
-	-ms-transition: background-color 300ms;
-	-o-transition: background-color 300ms;
-	transition: background-color 300ms;
+	-webkit-transition: all 200ms;
+	-moz-transition: all 200ms;
+	-ms-transition: all 200ms;
+	-o-transition: all 200ms;
+	transition: all 200ms;
 }
 
 header .main-header .container .menu nav menu li:hover{
@@ -144,8 +136,59 @@ header .main-header .container .menu nav menu li:hover{
 header .main-header .container .menu nav menu li:first-child a{
 	margin-right: 0;
 }
-
 /*End of Main Menu*/
+/*Start Submenu of Main Menu*/
+header .main-header .container .menu nav menu li menu{
+	position: absolute;
+	top: 38px;
+	right: 0;
+	z-index: 100;
+	background-color: #222;
+	min-width: 120px;
+	border-radius: 5px 0 5px 5px;
+	display: none;
+	padding: 0;
+}
+
+header .main-header .container .menu nav menu li:hover menu,
+header .main-header .container .menu nav > menu > li:hover > a{
+	display: block;
+	background-color: #222;
+	-webkit-transition: all 100ms;
+	-moz-transition: all 100ms;
+	-ms-transition: all 100ms;
+	-o-transition: all 100ms;
+	transition: all 100ms;
+}
+
+header .main-header .container .menu nav menu li menu li:first-child a{
+	margin-top: 15px;
+}
+
+header .main-header .container .menu nav menu li menu li{
+	margin: 0 5px;
+}
+
+header .main-header .container .menu nav menu li menu li a{
+	margin: 5px 0;
+	padding: 5px 15px 5px 50px;
+	white-space: nowrap;
+	-webkit-transition: background-color 600ms;
+	-moz-transition: background-color 600ms;
+	-ms-transition: background-color 600ms;
+	-o-transition: background-color 600ms;
+	transition: background-color 600ms;
+}
+
+header .main-header .container .menu nav menu li menu li:hover a{
+	background-color: #5A7C87;
+	-webkit-transition: background-color 300ms;
+	-moz-transition: background-color 300ms;
+	-ms-transition: background-color 300ms;
+	-o-transition: background-color 300ms;
+	transition: background-color 300ms;
+}
+/*End Submenu of Main Menu*/
 
 header .main-header .container .logo{
 	width: 215px;
