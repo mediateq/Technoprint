@@ -11,6 +11,7 @@ a{
 	text-decoration: none;
 	font-family: 'tahoma';
 	text-align: right;
+	color: #111;
 }
 
 menu,p{
@@ -366,6 +367,21 @@ footer .main-footer .container .title h2{
 footer .main-footer .container p{
 	color: #7A93A1;
 	font-size: 13px;
+	margin-bottom: 15px;
+	-webkit-transition: color 500ms;
+	-moz-transition: color 500ms;
+	-ms-transition: color 500ms;
+	-o-transition: color 500ms;
+	transition: color 500ms;
+}
+
+footer .main-footer .container .first a:hover p{
+	color: #fff;
+	-webkit-transition: color 300ms;
+	-moz-transition: color 300ms;
+	-ms-transition: color 300ms;
+	-o-transition: color 300ms;
+	transition: color 300ms;
 }
 
 footer .main-footer .container .link{
