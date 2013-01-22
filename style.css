@@ -2,6 +2,11 @@
 	outline: 1px dashed red;
 }
 */
+
+body{
+	text-align: right;
+}
+
 a{
 	text-decoration: none;
 	font-family: 'tahoma';
@@ -26,6 +31,7 @@ h2,p{
 /*Top Header*/
 header .top-header{
 	background-color: #19292E;
+	min-width: 1000px;
 }
 
 header .top-header .container .menu{
@@ -89,6 +95,7 @@ header .main-header{
 	background-image: url('./images/bg-header-holder.jpg');
 	background-repeat: repeat-x;
 	background-color: #19292E;
+	min-width: 1000px;
 }
 
 header .main-header .ray{
@@ -214,10 +221,12 @@ div.shadow-top{
 	min-height: 37px;
 	background-image: url('./images/bg-div-main.jpg');
 	background-repeat: repeat-x;
+	min-width: 1000px;
 }
 
 section.middle{
 	background-color: #f3f3f3;
+	min-width: 1000px;
 }
 
 section.middle .container .slideshow{
@@ -270,7 +279,7 @@ section.middle .container .products .frame img{
 	width: 190px;
 	height: 111px;
 	margin-top: 8px;
-	margin-left: 9px;
+	margin-right: 9px;
 }
 
 section.middle .container .products .desc{
@@ -322,6 +331,7 @@ footer .main-footer{
 	background-image: url('./images/bg-footer.jpg');
 	background-repeat: repeat-x;
 	background-color: #19292E;
+	min-width: 1000px;
 }
 
 footer .main-footer .container .first,
@@ -355,7 +365,7 @@ footer .main-footer .container .title h2{
 
 footer .main-footer .container p{
 	color: #7A93A1;
-	font-size: 15px;
+	font-size: 13px;
 }
 
 footer .main-footer .container .link{
@@ -483,6 +493,7 @@ footer .bot-footer{
 	background-image: url('./images/bg-footer-bottom.jpg');
 	background-repeat: repeat-x;
 	background-color: #111C20;
+	min-width: 1000px;
 }
 
 footer .bot-footer .container{

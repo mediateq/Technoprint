@@ -10,8 +10,6 @@
     <script src="./js/slideshow.js" type="text/javascript"></script>
 </head>
 <body>
-	<div class="contain">
-		<!-- Header -->
 		<header>
 			<!-- Top Header -->
 			<div class="top-header">
@@ -437,6 +435,5 @@
 				</div>
 			</div>
 		</footer>
-	</div>
 </body>
 </html>
