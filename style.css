@@ -527,7 +527,21 @@ footer .bot-footer .container .menu nav menu li{
 footer .bot-footer .container .menu nav menu li a{
 	display: block;
 	margin: 0 5px;
-	color: #BCBCBC;
+	color: #7A93A1;
+	-webkit-transition: color 500ms;
+	-moz-transition: color 500ms;
+	-ms-transition: color 500ms;
+	-o-transition: color 500ms;
+	transition: color 500ms;
+}
+
+footer .bot-footer .container .menu nav menu li a:hover{
+	color: #fff;
+	-webkit-transition: color 300ms;
+	-moz-transition: color 300ms;
+	-ms-transition: color 300ms;
+	-o-transition: color 300ms;
+	transition: color 300ms;
 }
 
 footer .bot-footer .container .menu nav menu li p{
