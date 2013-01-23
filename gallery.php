@@ -35,18 +35,71 @@
 				<div class="frame">
 					<img src="./images/others/g1.jpg" alt="">
 				</div>
+				<div class="tit"><h2>عکس شماره...</h2></div>
+				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
 			</div>
 			<div class="second">
 				<div class="frame">
 					<img src="./images/others/g2.jpg" alt="">
 				</div>
+				<div class="tit"><h2>عکس شماره...</h2></div>
+				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
 			</div>
 			<div class="third">
 				<div class="frame">
 					<img src="./images/others/g3.jpg" alt="">
 				</div>
+				<div class="tit"><h2>عکس شماره...</h2></div>
+				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
 			</div>
 			<div class="badboy"></div>
+
+			<div class="first">
+				<div class="frame">
+					<img src="./images/others/g1.jpg" alt="">
+				</div>
+				<div class="tit"><h2>عکس شماره...</h2></div>
+				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
+			</div>
+			<div class="second">
+				<div class="frame">
+					<img src="./images/others/g2.jpg" alt="">
+				</div>
+				<div class="tit"><h2>عکس شماره...</h2></div>
+				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
+			</div>
+			<div class="third">
+				<div class="frame">
+					<img src="./images/others/g3.jpg" alt="">
+				</div>
+				<div class="tit"><h2>عکس شماره...</h2></div>
+				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
+			</div>
+			<div class="badboy"></div>
+
+						<div class="first">
+				<div class="frame">
+					<img src="./images/others/g1.jpg" alt="">
+				</div>
+				<div class="tit"><h2>عکس شماره...</h2></div>
+				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
+			</div>
+			<div class="second">
+				<div class="frame">
+					<img src="./images/others/g2.jpg" alt="">
+				</div>
+				<div class="tit"><h2>عکس شماره...</h2></div>
+				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
+			</div>
+			<div class="third">
+				<div class="frame">
+					<img src="./images/others/g3.jpg" alt="">
+				</div>
+				<div class="tit"><h2>عکس شماره...</h2></div>
+				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
+			</div>
+			<div class="badboy"></div>
+			
 		</div>
 	</div>
 </section>

@@ -1,7 +1,7 @@
-header,footer,section,div,*{
+/*header,footer,section,div,*{
 	outline: 1px dashed red;
 }
-
+*/
 body{
 	text-align: right;
 }
@@ -872,8 +872,8 @@ section.gallery{
 	min-width: 1000px;
 }
 
-section.gallery .container{
-	min-height: 800px;
+section.gallery .container .gallery-pic{
+	padding: 0 20px;
 }
 
 section.gallery .container .gallery-pic .first,
@@ -881,8 +881,8 @@ section.gallery .container .gallery-pic .second,
 section.gallery .container .gallery-pic .third{
 	float: right;
 	width: 293px;
-	min-height: 250px;
-	margin-right: 35px;
+	margin-right: 15px;
+	margin-bottom: 45px;
 }
 
 section.gallery .container .gallery-pic .first{
@@ -906,4 +906,12 @@ section.gallery .container .gallery-pic .third .frame img{
 	height: 145px;
 	margin-top: 8px;
 	margin-right: 9px; 
+}
+
+section.gallery .container .gallery-pic h2{
+	font-size: 17px;
+}
+
+section.gallery .container .gallery-pic p{
+	font-size: 13px;
 }
