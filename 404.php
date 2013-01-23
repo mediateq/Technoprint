@@ -21,7 +21,7 @@
 					<nav>
 						<menu>
 							<li><a href="#"><p>404</p></a><span></span></li>
-							<li><a href="#"><p>خانه</p></a><span></span></li>
+							<li><a href="#"><p>صفحه اصلی</p></a><span></span></li>
 						</menu>
 					</nav>
 				</div>
