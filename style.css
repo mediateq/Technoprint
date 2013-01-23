@@ -1,7 +1,7 @@
-/*header,footer,section,div,*{
+header,footer,section,div,*{
 	outline: 1px dashed red;
 }
-*/
+
 body{
 	text-align: right;
 }
@@ -865,4 +865,36 @@ section.not-found .container .notfound-404 .detail .menu li a{
 	margin: 5px 0;
 	text-decoration: underline;
 	color: #5A7C87;
+}
+/*------------------------------Gallery Page---------------------------*/
+section.gallery{
+	background-color: #F3F3F3;
+	min-width: 1000px;
+}
+
+section.gallery .container{
+	min-height: 800px;
+}
+
+section.gallery .container .gallery-pic .first,
+section.gallery .container .gallery-pic .second,
+section.gallery .container .gallery-pic .third{
+	float: right;
+	width: 293px;
+	min-height: 250px;
+	margin-right: 35px;
+}
+
+section.gallery .container .gallery-pic .first .frame,
+section.gallery .container .gallery-pic .second .frame,
+section.gallery .container .gallery-pic .third .frame{
+	width: 293px;
+	height: 179px;
+	background-image: url('./images/image-frame-sprite-2.png');
+	background-repeat: no-repeat;
+	background-position: -1px -279px;
+}
+
+section.gallery .container .gallery-pic .first{
+	margin-right: 0;
 }
