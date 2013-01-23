@@ -851,14 +851,18 @@ section.not-found .container .notfound-404 .detail .text p{
 
 section.not-found .container .notfound-404 .detail .menu{
 	margin-top: 10px;
+	margin-right: 20px;
 }
 
 section.not-found .container .notfound-404 .detail .menu menu{
 	list-style: disc;
+	color: #666;
 }
 
 section.not-found .container .notfound-404 .detail .menu li a{
-	display: block;
+	display: inline-block;
 	font-size: 14px;
 	margin: 5px 0;
+	text-decoration: underline;
+	color: #5A7C87;
 }
