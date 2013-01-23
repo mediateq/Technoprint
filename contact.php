@@ -20,7 +20,6 @@
 					<nav>
 						<menu>
 							<li><a href="#"><p>تماس با ما</p></a><span></span></li>
-							<li><a href="#"><p>جفنگ</p></a><span></span></li>
 							<li><a href="#"><p>خانه</p></a><span></span></li>
 						</menu>
 					</nav>

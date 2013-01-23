@@ -689,6 +689,12 @@ section.contact .container{
 	background-repeat: no-repeat;
 	background-position: left center;
 	font-size: 13px;
+	text-decoration: underline;
+	-webkit-transition: color 500ms;
+	-moz-transition: color 500ms;
+	-ms-transition: color 500ms;
+	-o-transition: color 500ms;
+	transition: color 500ms;
 }
 
 #title-pages #main-pic #menu nav menu li p{
@@ -697,4 +703,19 @@ section.contact .container{
 
 #title-pages #main-pic #menu nav menu li:first-child a{
 	background-image: none;
+	text-decoration: none;
+}
+
+#title-pages #main-pic #menu nav menu li a:hover{
+	color: #CCC;
+	-webkit-transition: color 300ms;
+	-moz-transition: color 300ms;
+	-ms-transition: color 300ms;
+	-o-transition: color 300ms;
+	transition: color 300ms;
+}
+
+#title-pages #main-pic #menu nav menu li:first-child a:hover{
+	color: #fff;
+	cursor: text ;
 }
