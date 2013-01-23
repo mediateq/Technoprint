@@ -6117,7 +6117,3 @@ $.fn.galleria = function( options ) {
 };
 
 }( jQuery ) );
-
-Galleria.loadTheme('./js/galleria.classic.js');
-
-Galleria.run('#galleria');

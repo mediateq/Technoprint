@@ -1,3 +1,9 @@
+<script>
+	Galleria.loadTheme('./js/galleria.classic.js');
+
+	Galleria.run('#galleria');
+</script>
+
 <section class="middle">
 	<div class="container">
 		<div class="slideshow">
