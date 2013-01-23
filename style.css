@@ -1,7 +1,7 @@
-header,footer,section,div,*{
+/*header,footer,section,div,*{
 	outline: 1px dashed red;
 }
-
+*/
 body{
 	text-align: right;
 }
@@ -620,6 +620,35 @@ section.contact .container{
 	float: left;
 	width: 250px;
 	height: 48px;
+}
+
+#title-pages #main-pic #search .search-box{
+	background: #111f22;
+}
+
+#title-pages #main-pic #search .search-box input{
+	background: #111f22;
+	border: 0;
+	float: right;
+	outline: none;
+}
+
+#title-pages #main-pic #search .search-box input.text{
+	border-radius: 0px 5px 5px 0px;
+	width: 150px;
+	height: 21px;
+	color: #fff;
+	padding: 3px 6px
+}
+
+#title-pages #main-pic #search .search-box input.submit{
+	border-radius: 5px 0px 0px 5px;
+	background-image: url('./images/search.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 25px;
+	height: 27px;
+	padding-right: 10px;
 }
 
 #title-pages #main-pic #menu{

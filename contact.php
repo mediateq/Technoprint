@@ -8,7 +8,14 @@
 				<div id="title">
 					<p>تماس با ما</p>
 				</div>
-				<div id="search"></div>
+				<div id="search">
+					<div class="search-box">
+						<form action="">
+							<input type="text" class="text" />
+							<input type="submit" value="" class="submit" />
+						</form>
+					</div>
+				</div>
 				<div id="menu">
 					<nav>
 						<menu>
