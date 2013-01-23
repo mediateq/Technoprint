@@ -885,6 +885,10 @@ section.gallery .container .gallery-pic .third{
 	margin-right: 35px;
 }
 
+section.gallery .container .gallery-pic .first{
+	margin-right: 0;
+}
+
 section.gallery .container .gallery-pic .first .frame,
 section.gallery .container .gallery-pic .second .frame,
 section.gallery .container .gallery-pic .third .frame{
@@ -895,6 +899,11 @@ section.gallery .container .gallery-pic .third .frame{
 	background-position: -1px -279px;
 }
 
-section.gallery .container .gallery-pic .first{
-	margin-right: 0;
+section.gallery .container .gallery-pic .first .frame img,
+section.gallery .container .gallery-pic .second .frame img,
+section.gallery .container .gallery-pic .third .frame img{
+	width: 275px;
+	height: 145px;
+	margin-top: 8px;
+	margin-right: 9px; 
 }

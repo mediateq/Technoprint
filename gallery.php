@@ -32,13 +32,19 @@
 		<!-- end Title of each page -->
 		<div class="gallery-pic">
 			<div class="first">
-				<div class="frame"></div>
+				<div class="frame">
+					<img src="./images/others/g1.jpg" alt="">
+				</div>
 			</div>
 			<div class="second">
-				<div class="frame"></div>
+				<div class="frame">
+					<img src="./images/others/g2.jpg" alt="">
+				</div>
 			</div>
 			<div class="third">
-				<div class="frame"></div>
+				<div class="frame">
+					<img src="./images/others/g3.jpg" alt="">
+				</div>
 			</div>
 			<div class="badboy"></div>
 		</div>
