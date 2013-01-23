@@ -819,7 +819,6 @@ section.not-found .container .notfound-404{
 section.not-found .container .notfound-404 .detail{
 	float: right;
 	width: 480px;
-	min-height: 290px;
 }
 
 section.not-found .container .notfound-404 .pic{
@@ -827,4 +826,31 @@ section.not-found .container .notfound-404 .pic{
 	min-height: 290px;
 	background-image: url('./images/404_error.png');
 	background-repeat: no-repeat;
+}
+
+section.not-found .container .notfound-404 .detail{
+	margin-top: 45px;
+}
+
+section.not-found .container .notfound-404 .detail .tit p{
+	font-size: 19px;
+}
+
+section.not-found .container .notfound-404 .detail .text p{
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+section.not-found .container .notfound-404 .detail .menu{
+	margin-top: 10px;
+}
+
+section.not-found .container .notfound-404 .detail .menu menu{
+	list-style: disc;
+}
+
+section.not-found .container .notfound-404 .detail .menu li a{
+	display: block;
+	font-size: 14px;
+	margin: 5px 0;
 }
