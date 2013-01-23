@@ -582,14 +582,9 @@ footer .bot-footer .container .copyright p{
 	margin-top: 4px;
 	text-align: left;
 }
-/*------------------------------Contact Page---------------------------*/
-section.contact{
-	background-color: #F3F3F3;
-	min-width: 1000px;
-}
-
-section.contact .container{
-	min-height: 800px;
+/*------------------------------Title of each page--------------------------------*/
+#title-pages{
+	margin-bottom: 40px;
 }
 
 #title-pages #top-pic{
@@ -619,8 +614,9 @@ section.contact .container{
 	margin-top: 8px;
 }
 
-#title-pages #main-pic #title p{
+#title-pages #main-pic #title h2{
 	font-size: 20px;
+	margin: 0;
 }
 
 #title-pages #main-pic #search{
@@ -720,4 +716,77 @@ section.contact .container{
 #title-pages #main-pic #menu nav menu li:first-child a:hover{
 	color: #fff;
 	cursor: text ;
+}
+/*------------------------------Contact Page---------------------------*/
+section.contact{
+	background-color: #F3F3F3;
+	min-width: 1000px;
+}
+
+section.contact .container .form-detail .form{
+	float: right;
+	width: 550px;
+}
+
+
+section.contact .container .form-detail .form .tit p{
+	font-size: 18px;
+}
+
+section.contact .container .form-detail .form .text p{
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+section.contact .container .form-detail .form form{
+	margin-top: 25px;
+}
+
+section.contact .container .form-detail .form form p{
+	margin: 10px 0 5px 0;
+	font-size: 15px;
+}
+
+section.contact .container .form-detail .form form p span{
+	color: red;
+}
+
+section.contact .container .form-detail .form form input{
+	width: 360px;
+	height: 30px;
+	outline: none;
+}
+
+section.contact .container .form-detail .form form textarea{
+	float: right;
+	width: 535px;
+	height: 210px;
+	outline: none;
+}
+
+section.contact .container .form-detail .form form input.button{
+	width: 80px;
+	height: 40px;
+	margin-top: 15px;
+	background-color: #111;
+	color: #fff;
+	border-radius: 5px;
+	-webkit-transition: background-color 500ms;
+	-moz-transition: background-color 500ms;
+	-ms-transition: background-color 500ms;
+	-o-transition: background-color 500ms;
+	transition: background-color 500ms;
+}
+
+section.contact .container .form-detail .form form input.button:hover{
+	background-color: #333;
+	-webkit-transition: background-color 300ms;
+	-moz-transition: background-color 300ms;
+	-ms-transition: background-color 300ms;
+	-o-transition: background-color 300ms;
+	transition: background-color 300ms;
+}
+
+section.contact .container .form-detail .detail{
+	margin-right: 600px;
 }
