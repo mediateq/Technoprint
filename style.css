@@ -31,6 +31,10 @@ h2,p{
 	background-image: url('./images/separator3.gif');
 	background-repeat: repeat-x;
 }
+
+.left{
+	direction:ltr;
+}
 /*------------------------------Header-------------------------------*/
 /*Top Header*/
 header .top-header{
