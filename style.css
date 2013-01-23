@@ -1,7 +1,6 @@
-/*header,footer,section,div,*{
+header,footer,section,div,*{
 	outline: 1px dashed red;
 }
-*/
 
 body{
 	text-align: right;
@@ -592,20 +591,72 @@ section.contact .container{
 	min-height: 800px;
 }
 
-#title-pages .top-pic{
-	height: 6px;
+#title-pages #top-pic{
+	height: 4px;
 	background-image: url('./images/bg-tools-t.jpg');
 	background-repeat: no-repeat;
 }
 
-#title-pages .bot-pic{
+#title-pages #bot-pic{
 	height: 7px;
 	background-image: url('./images/bg-tools-b.jpg');
 	background-repeat: no-repeat;
 }
 
-#title-pages .main-pic{
+#title-pages #main-pic{
 	height: 48px;
 	background-image: url('./images/bg-tools-c.jpg');
 	background-repeat: repeat-y;
+	color: #fff;
+}
+
+#title-pages #main-pic #title{
+	float: right;
+	width: 250px;
+	height: 48px;
+}
+
+#title-pages #main-pic #search{
+	float: left;
+	width: 250px;
+	height: 48px;
+}
+
+#title-pages #main-pic #menu{
+	margin-right: 250px;
+	margin-left: 250px;
+	height: 48px;
+}
+
+#title-pages #main-pic #menu nav menu li{
+	float: left;
+	position: relative;
+}
+
+#title-pages #main-pic #menu nav menu li:first-child span{
+	position: absolute;
+	top: 47px;
+	left:50%;
+	display: block;
+	width: 16px;
+	height: 8px;
+	background-image: url('./images/arrow-up.png');
+	background-repeat: no-repeat;
+}
+
+#title-pages #main-pic #menu nav menu li a{
+	color: #fff;
+	display: block;
+	margin: 0 5px;
+	background-image: url('./images/arrow-right.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#title-pages #main-pic #menu nav menu li p{
+	margin-left: 15px;
+}
+
+#title-pages #main-pic #menu nav menu li:first-child a{
+	background-image: none;
 }
