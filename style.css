@@ -585,6 +585,7 @@ footer .bot-footer .container .copyright p{
 /*------------------------------Contact Page---------------------------*/
 section.contact{
 	background-color: #F3F3F3;
+	min-width: 1000px;
 }
 
 section.contact .container{
