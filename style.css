@@ -612,18 +612,25 @@ section.contact .container{
 
 #title-pages #main-pic #title{
 	float: right;
-	width: 250px;
+	width: 150px;
 	height: 48px;
+	margin-right: 20px;
+	margin-top: 8px;
+}
+
+#title-pages #main-pic #title p{
+	font-size: 20px;
 }
 
 #title-pages #main-pic #search{
 	float: left;
-	width: 250px;
+	width: 210px;
 	height: 48px;
 }
 
 #title-pages #main-pic #search .search-box{
 	background: #111f22;
+	margin-top: 11px;
 }
 
 #title-pages #main-pic #search .search-box input{
@@ -636,7 +643,7 @@ section.contact .container{
 #title-pages #main-pic #search .search-box input.text{
 	border-radius: 0px 5px 5px 0px;
 	width: 150px;
-	height: 21px;
+	height: 23px;
 	color: #fff;
 	padding: 3px 6px
 }
@@ -647,24 +654,25 @@ section.contact .container{
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 25px;
-	height: 27px;
+	height: 29px;
 	padding-right: 10px;
 }
 
 #title-pages #main-pic #menu{
-	margin-right: 250px;
-	margin-left: 250px;
+	margin-right: 150px;
+	margin-left: 220px;
 	height: 48px;
 }
 
 #title-pages #main-pic #menu nav menu li{
 	float: left;
 	position: relative;
+	margin-top: 15px;
 }
 
 #title-pages #main-pic #menu nav menu li:first-child span{
 	position: absolute;
-	top: 47px;
+	top: 32px;
 	left:50%;
 	display: block;
 	width: 16px;
@@ -680,6 +688,7 @@ section.contact .container{
 	background-image: url('./images/arrow-right.png');
 	background-repeat: no-repeat;
 	background-position: left center;
+	font-size: 13px;
 }
 
 #title-pages #main-pic #menu nav menu li p{
