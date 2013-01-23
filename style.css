@@ -723,6 +723,10 @@ section.contact{
 	min-width: 1000px;
 }
 
+section.contact .container .form-detail{
+	padding: 0 20px;
+}
+
 section.contact .container .form-detail .form{
 	float: right;
 	width: 550px;
@@ -768,7 +772,7 @@ section.contact .container .form-detail .form form input.button{
 	width: 80px;
 	height: 40px;
 	margin-top: 15px;
-	background-color: #111;
+	background-color: #2f434a;
 	color: #fff;
 	border-radius: 5px;
 	-webkit-transition: background-color 500ms;
@@ -779,7 +783,7 @@ section.contact .container .form-detail .form form input.button{
 }
 
 section.contact .container .form-detail .form form input.button:hover{
-	background-color: #333;
+	background-color: #38505a;
 	-webkit-transition: background-color 300ms;
 	-moz-transition: background-color 300ms;
 	-ms-transition: background-color 300ms;
@@ -789,4 +793,16 @@ section.contact .container .form-detail .form form input.button:hover{
 
 section.contact .container .form-detail .detail{
 	margin-right: 600px;
+}
+
+section.contact .container .form-detail .detail .phone-pic{
+	width: 269px;
+	height: 594px;
+	background-image: url('./images/bg-smartphone.png');
+	background-repeat: no-repeat;
+}
+
+section.contact .container .form-detail .detail .phone-pic .map iframe{
+	margin-top: 90px;
+	margin-right: 28px;
 }
