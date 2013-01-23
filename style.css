@@ -223,15 +223,12 @@ div.shadow-top{
 	background-image: url('./images/bg-div-main.jpg');
 	background-repeat: repeat-x;
 	min-width: 1000px;
+	padding-bottom: 6px;
 }
 
 section.middle{
 	background-color: #f3f3f3;
 	min-width: 1000px;
-}
-
-section.middle .container .slideshow{
-	padding-top: 6px;
 }
 
 section.middle .container .text{
@@ -585,4 +582,30 @@ footer .bot-footer .container .copyright p{
 	font-size: 12px;
 	margin-top: 4px;
 	text-align: left;
+}
+/*------------------------------Contact Page---------------------------*/
+section.contact{
+	background-color: #F3F3F3;
+}
+
+section.contact .container{
+	min-height: 800px;
+}
+
+#title-pages .top-pic{
+	height: 6px;
+	background-image: url('./images/bg-tools-t.jpg');
+	background-repeat: no-repeat;
+}
+
+#title-pages .bot-pic{
+	height: 7px;
+	background-image: url('./images/bg-tools-b.jpg');
+	background-repeat: no-repeat;
+}
+
+#title-pages .main-pic{
+	height: 48px;
+	background-image: url('./images/bg-tools-c.jpg');
+	background-repeat: repeat-y;
 }
