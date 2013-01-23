@@ -11,7 +11,7 @@
 				<div id="search">
 					<div class="search-box">
 						<form action="">
-							<input type="text" class="text" />
+							<input type="text" class="text" placeholder="جستجو" />
 							<input type="submit" value="" class="submit" />
 						</form>
 					</div>

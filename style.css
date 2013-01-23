@@ -646,7 +646,8 @@ section.contact .container{
 	width: 150px;
 	height: 23px;
 	color: #fff;
-	padding: 3px 6px
+	padding: 3px 6px;
+	text-align: right;
 }
 
 #title-pages #main-pic #search .search-box input.submit{
