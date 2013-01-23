@@ -812,6 +812,19 @@ section.not-found{
 	min-width: 1000px;
 }
 
-section.not-found .container{
-	min-height: 400px;
+section.not-found .container .notfound-404{
+	padding: 0 90px;
+}
+
+section.not-found .container .notfound-404 .detail{
+	float: right;
+	width: 480px;
+	min-height: 290px;
+}
+
+section.not-found .container .notfound-404 .pic{
+	margin-right: 480px;
+	min-height: 290px;
+	background-image: url('./images/404_error.png');
+	background-repeat: no-repeat;
 }

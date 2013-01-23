@@ -30,7 +30,10 @@
 			<div id="bot-pic"></div>
 		</div>
 		<!-- end Title of each page -->
-		
+		<div class="notfound-404">
+			<div class="detail"></div>
+			<div class="pic"></div>
+		</div>
 	</div>
 </section>
 
