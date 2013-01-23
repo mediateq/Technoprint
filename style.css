@@ -899,6 +899,39 @@ section.gallery .container .gallery-pic .third .frame{
 	background-position: -1px -279px;
 }
 
+section.gallery .container .gallery-pic .frame .pic{
+	position: relative;
+}
+
+section.gallery .container .gallery-pic .frame .pic .effe{
+	position: absolute;
+	top: 4px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+	opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+	background-image: url('./images/img-zoom-3.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: opacity 700ms;
+	-moz-transition: opacity 700ms;
+	-ms-transition: opacity 700ms;
+	-o-transition: opacity 700ms;
+	transition: opacity 700ms;
+}
+
+section.gallery .container .gallery-pic .frame .pic .effe:hover{
+	opacity: 0.8;
+	-webkit-transition: opacity 400ms;
+	-moz-transition: opacity 400ms;
+	-ms-transition: opacity 400ms;
+	-o-transition: opacity 400ms;
+	transition: opacity 400ms;
+}
+
 section.gallery .container .gallery-pic .first .frame img,
 section.gallery .container .gallery-pic .second .frame img,
 section.gallery .container .gallery-pic .third .frame img{
@@ -914,4 +947,11 @@ section.gallery .container .gallery-pic h2{
 
 section.gallery .container .gallery-pic p{
 	font-size: 13px;
+}
+
+section.gallery .container .gallery-pic .pages a{
+	background-color: #38505a;
+	padding: 2px 9px;
+	border-radius: 5px;
+	color: #fff; 
 }
