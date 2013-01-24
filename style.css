@@ -1,7 +1,7 @@
-/*header,footer,section,div,*{
+header,footer,section,div,*{
 	outline: 1px dashed red;
 }
-*/
+
 body{
 	text-align: right;
 	direction: rtl;
@@ -960,6 +960,17 @@ section.products{
 	min-width: 1000px;
 }
 
-section.products .container{
-	min-height: 800px;
+section.products .container .all-products{
+	padding: 0 20px;
+}
+
+section.products .container .all-products .product{
+	float: right;
+	width: 650px;
+	min-height: 600px;
+}
+
+section.products .container .all-products .cat{
+	margin-right: 680px;
+	min-height: 600px;
 }

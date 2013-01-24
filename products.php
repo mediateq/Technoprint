@@ -30,6 +30,10 @@
 			<div id="bot-pic"></div>
 		</div>
 		<!-- end Title of each page -->
+		<div class="all-products">
+			<div class="product"></div>
+			<div class="cat"></div>
+		</div>
 		
 	</div>
 </section>
