@@ -801,7 +801,6 @@ section.contact .container .form-detail .detail{
 }
 
 section.contact .container .form-detail .detail .phone-pic{
-	width: 269px;
 	height: 594px;
 	background-image: url('./images/bg-smartphone.png');
 	background-repeat: no-repeat;
@@ -809,7 +808,7 @@ section.contact .container .form-detail .detail .phone-pic{
 
 section.contact .container .form-detail .detail .phone-pic .map iframe{
 	margin-top: 90px;
-	margin-right: 28px;
+	margin-right: 70px;
 }
 /*------------------------------Contact Page---------------------------*/
 section.not-found{
