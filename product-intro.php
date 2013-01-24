@@ -7,7 +7,7 @@
 			<div id="top-pic"></div>
 			<div id="main-pic">
 				<div id="title">
-					<h2>اسکنر</h2>
+					<h2>اسکنر Datalogic 1300</h2>
 				</div>
 				<div id="search">
 					<div class="search-box">
@@ -20,6 +20,7 @@
 				<div id="menu">
 					<nav>
 						<menu>
+							<li><a href="#"><p>اسکنر Datalogic 1300</p></a><span></span></li>
 							<li><a href="#"><p>اسکنر</p></a><span></span></li>
 							<li><a href="#"><p>محصولات</p></a><span></span></li>
 							<li><a href="#"><p>صفحه اصلی</p></a><span></span></li>
@@ -33,7 +34,14 @@
 		<!-- end Title of each page -->
 		<div class="one-produce">
 			<div class="produce">
-
+				<div class="pic">
+					<a href="#" title=""><img src="./images/others/one-pro1.png" alt="" /></a>
+				</div>
+				<div class="detail">
+					<div class="tit"><h2>اسکنر Datalogic 1300</h2></div>
+					<div class="price"><p>150 هزار تومان</p></div>
+				</div>
+				<div class="badboy"></div>
 			</div>
 			<!-- Start Categories of product -->
 			<div id="cat">
