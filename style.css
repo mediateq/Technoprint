@@ -1040,4 +1040,18 @@ section.products .container .all-products ul li img{
 
 #cat nav menu li a:hover{
 	text-decoration: underline;	
-}	
+}
+/*------------------------------Products Intro Page---------------------------*/
+section.sub-products{
+	background-color: #F3F3F3;
+	min-width: 1000px;
+}
+
+section.sub-products .container .one-produce{
+	padding: 0 20px 0 0;
+}
+
+section.sub-products .container .one-produce .produce{
+	float: right;
+	width: 760px;
+}
