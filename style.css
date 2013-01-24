@@ -4,9 +4,6 @@
 */
 body{
 	text-align: right;
-}
-
-div{
 	direction: rtl;
 }
 
@@ -32,7 +29,7 @@ h2,p{
 	background-repeat: repeat-x;
 }
 
-.left{
+.ltr{
 	direction:ltr;
 }
 /*------------------------------Header-------------------------------*/

@@ -47,7 +47,7 @@
 			<div class="badboy"></div>
 			</div>
 			<div class="detail">
-				<div class="phone-pic">
+				<div class="phone-pic left">
 					<div class="map">
 						<iframe width="211" height="322" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=208152577024565193217.0004c1c95d80b1d14a8b2&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;ll=36.313362,59.561949&amp;spn=0.011135,0.009012&amp;z=15&amp;output=embed"></iframe>
 					</div>

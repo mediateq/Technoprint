@@ -6,7 +6,7 @@
 
 <section class="middle">
 	<div class="container">
-		<div class="slideshow">
+		<div class="slideshow ltr">
 			<div class="content"> 
 		        <div id="galleria">
 		            <a href="./images/others/1.jpg">

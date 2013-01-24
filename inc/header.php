@@ -79,7 +79,7 @@
 							<div class="badboy"></div>
 						</nav>
 					</div>
-					<div class="logo left">
+					<div class="logo ltr">
 						<a href="#"><img src="./images/logo.png" alt="techno peint" /><h2><span class="techno">Techno </span><span class="print"> Print</span></h2></a>
 					</div>
 					<div class="badboy"></div>
