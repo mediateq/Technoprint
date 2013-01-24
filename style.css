@@ -1,7 +1,7 @@
-header,footer,section,div,*{
+/*header,footer,section,div,*{
 	outline: 1px dashed red;
 }
-
+*/
 body{
 	text-align: right;
 	direction: rtl;
@@ -966,11 +966,29 @@ section.products .container .all-products{
 
 section.products .container .all-products .product{
 	float: right;
-	width: 650px;
+	width: 700px;
 	min-height: 600px;
 }
 
+section.products .container .all-products ul li{
+	float: right;
+	width: 150px;
+	min-height: 200px;
+	margin-right: 20px;
+}
+
+section.products .container .all-products .product ul li:first-child{
+	margin-right: 0;
+}
+
+section.products .container .all-products ul li img{
+	width: 150px;
+	height: 150px;
+	outline: 3px solid #FAFAFA;
+	-webkit-box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
 section.products .container .all-products .cat{
-	margin-right: 680px;
+	margin-right: 705px;
 	min-height: 600px;
 }

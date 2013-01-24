@@ -31,7 +31,15 @@
 		</div>
 		<!-- end Title of each page -->
 		<div class="all-products">
-			<div class="product"></div>
+			<div class="product">
+				<p>محصولات</p>
+				<ul>
+					<li><a href="#"><img src="./images/others/pro1.png" alt="" /></a></li>
+					<li><a href="#"><img src="./images/others/pro2.png" alt="" /></a></li>
+					<li><a href="#"><img src="./images/others/pro3.png" alt="" /></a></li>
+					<li><a href="#"><img src="./images/others/pro4.png" alt="" /></a></li>
+				</ul>
+			</div>
 			<div class="cat"></div>
 		</div>
 		
