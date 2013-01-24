@@ -86,7 +86,8 @@
 					
 				</ul>
 			</div>
-			<div class="cat">
+			<!-- Start Categories of product -->
+			<div id="cat">
 				<div class="vline"></div>
 				<h2>گروه بندی محصولات</h2>
 				<nav>
@@ -101,6 +102,7 @@
 				<div class="hline"></div>
 				<div class="badboy"></div>
 			</div>
+			<!-- End Categories of product -->
 			<div class="badboy"></div>
 		</div>
 	</div>

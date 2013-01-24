@@ -981,7 +981,7 @@ section.products .container .all-products ul li{
 }
 
 section.products .container .all-products ul li h2.product-name{
-	font-size: 19px;
+	font-size: 17px;
 	color: #111;
 	display: inline-block;
 }
@@ -997,47 +997,47 @@ section.products .container .all-products ul li img{
 	box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.3);
 }
 
-section.products .container .all-products .cat{
+#cat{
 	margin-right: 760px;
 }
 
-section.products .container .all-products .cat .vline{
+#cat .vline{
 	float: right;
 	width: 2px;
-	min-height: 240px; 
+	min-height: 360px; 
 	background-image: url('./images/bg-sidebar.gif');
 	background-repeat: repeat-y;
 }
 
-section.products .container .all-products .cat .hline{
+#cat .hline{
 	width: 135px;
 	margin-right: 30px;
 }
 
-section.products .container .all-products .cat h2{
+#cat h2{
 	margin-right: 30px;
 	font-size: 13px;
 	font-weight: bold;
 }
 
-section.products .container .all-products .cat nav menu{
+#cat nav menu{
 	margin-right: 30px;
 	margin-bottom: 20px;
 }
 
-section.products .container .all-products .cat nav menu li{
+#cat nav menu li{
 	background-image: url('./images/bullet1.png');
 	background-repeat: no-repeat;
 	background-position: right center;
 }
 
-section.products .container .all-products .cat nav menu li a{
+#cat nav menu li a{
 	display: block;
 	margin: 5px 15px 0 5px;
 	font-size: 14px;
 	color: #5A7C87;
 }
 
-section.products .container .all-products .cat nav menu li a:hover{
+#cat nav menu li a:hover{
 	text-decoration: underline;	
 }	
