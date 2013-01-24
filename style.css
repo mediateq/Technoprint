@@ -951,3 +951,12 @@ section.gallery .container .gallery-pic .pages a{
 	border-radius: 5px;
 	color: #fff; 
 }
+/*------------------------------Products Page---------------------------*/
+section.products{
+	background-color: #F3F3F3;
+	min-width: 1000px;
+}
+
+section.products .container{
+	min-height: 800px;
+}
