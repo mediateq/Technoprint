@@ -34,15 +34,75 @@
 			<div class="product">
 				<p>محصولات</p>
 				<ul>
-					<li><a href="#"><img src="./images/others/pro1.png" alt="" /></a></li>
-					<li><a href="#"><img src="./images/others/pro2.png" alt="" /></a></li>
-					<li><a href="#"><img src="./images/others/pro3.png" alt="" /></a></li>
-					<li><a href="#"><img src="./images/others/pro4.png" alt="" /></a></li>
+					<li>
+						<a href="#">
+							<img src="./images/others/pro1.png" alt="" />
+							<h2 class="product-name">اسکنر</h2>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/others/pro2.png" alt="" />
+							<h2 class="product-name">پرینتر</h2>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/others/pro3.png" alt="" />
+							<h2 class="product-name">موس</h2>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/others/pro4.png" alt="" />
+							<h2 class="product-name">دوربین</h2>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="./images/others/pro1.png" alt="" />
+							<h2 class="product-name">اسکنر</h2>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/others/pro2.png" alt="" />
+							<h2 class="product-name">پرینتر</h2>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/others/pro3.png" alt="" />
+							<h2 class="product-name">موس</h2>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="./images/others/pro4.png" alt="" />
+							<h2 class="product-name">دوربین</h2>
+						</a>
+					</li>
+					
 				</ul>
 			</div>
-			<div class="cat"></div>
+			<div class="cat">
+				<div class="vline"></div>
+				<h2>گروه بندی محصولات</h2>
+				<nav>
+					<menu>
+						<li><a href="#">اسکنر</a></li>
+						<li><a href="#">موس</a></li>
+						<li><a href="#">پرینتر</a></li>
+						<li><a href="#">دوربین</a></li>
+						<li><a href="#">کی بورد</a></li>
+					</menu>
+				</nav>
+				<div class="hline"></div>
+				<div class="badboy"></div>
+			</div>
+			<div class="badboy"></div>
 		</div>
-		
 	</div>
 </section>
 
