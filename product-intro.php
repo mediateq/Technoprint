@@ -40,6 +40,15 @@
 				<div class="detail">
 					<div class="tit"><h2>اسکنر Datalogic 1300</h2></div>
 					<div class="price"><p>150 هزار تومان</p></div>
+					<div class="detail-text">
+						<ul>
+							<li>جزئیات</li>
+						</ul>
+						<div class="text">
+							<h2>توضیحات محصول</h2>
+							<p>شرح جزیئات محصول مورد نظر شرح جزیئات محصول مورد نظر شرح جزیئات محصول مورد نظر شرح جزیئات محصول مورد نظر شرح جزیئات محصول مورد نظر شرح جزیئات محصول مورد نظر شرح جزیئات محصول مورد نظر </p>
+						</div>
+					</div>
 				</div>
 				<div class="badboy"></div>
 			</div>

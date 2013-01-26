@@ -1072,10 +1072,6 @@ section.sub-products .container .one-produce .produce .pic img{
 	cursor: url('./images/zoom_in.png'),pointer;
 }
 
-section.sub-products .container .one-produce .produce .pic img:hover{
-	
-}
-
 section.sub-products .container .one-produce .produce .detail{
 	margin-right: 350px;
 }
@@ -1083,4 +1079,43 @@ section.sub-products .container .one-produce .produce .detail{
 section.sub-products .container .one-produce .produce .detail h2{
 	margin-top: 0;
 	font-size: 20px;
+}
+
+section.sub-products .container .one-produce .produce .detail .detail-text{
+	padding: 0 0 0 15px;
+}
+
+section.sub-products .container .one-produce .produce .detail .detail-text ul{
+	margin: 20px 0 0 0;
+}
+
+section.sub-products .container .one-produce .produce .detail .detail-text ul li{
+	background-color: #fff;
+	width: 80px;
+	text-align: center;
+	border: 1px solid #aaa;
+	border-bottom: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-right: 5px;
+	padding: 3px 3px
+}
+
+section.sub-products .container .one-produce .produce .detail .detail-text .text{
+	background-color: #fff;
+	border: 1px solid #aaa;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 10px 15px
+
+}
+
+section.sub-products .container .one-produce .produce .detail .detail-text .text h2{
+	font-size: 17px;
+	margin: 0;
+}
+
+section.sub-products .container .one-produce .produce .detail .detail-text .text p{
+	margin-top: 5px;
+	font-size: 13px;
 }
