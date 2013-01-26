@@ -1125,6 +1125,47 @@ section.about-us{
 	min-width: 1000px;
 }
 
-section.about-us .container{
-	min-height: 800px;
+section.about-us .container .about{
+	padding: 0 20px;
+}
+
+section.about-us .container .about h2{
+	margin: 0;
+	font-size: 18px;
+}
+
+section.about-us .container .about p{
+	margin-top: 5px;
+	font-size: 16px;
+}
+
+section.about-us .container .about .hr-shadow{
+	height: 20px;
+	width: 810px;
+	background-image: url('./images/global-sprite-dividers.png');
+	background-repeat: no-repeat;
+	background-position: 0 -20px;
+	margin: 15px 0 22px 0;
+}
+
+section.about-us .container .about .detail .first,
+section.about-us .container .about .detail .second,
+section.about-us .container .about .detail .third{
+	float: right;
+	width: 280px;
+	min-height: 150px;
+	margin-right: 35px;
+}
+
+section.about-us .container .about .detail .first{
+	margin-right: 0;
+}
+
+section.about-us .container .about .detail h2{
+	font-size: 17px;
+}
+
+section.about-us .container .about .detail p{
+	font-size: 14px;
+	color: #666;
 }
