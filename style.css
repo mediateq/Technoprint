@@ -1119,7 +1119,7 @@ section.sub-products .container .one-produce .produce .detail .detail-text .text
 	margin-top: 5px;
 	font-size: 13px;
 }
-/*------------------------------Products Intro Page---------------------------*/
+/*------------------------------Aboutus Page---------------------------*/
 section.about-us{
 	background-color: #F3F3F3;
 	min-width: 1000px;
@@ -1168,4 +1168,55 @@ section.about-us .container .about .detail h2{
 section.about-us .container .about .detail p{
 	font-size: 14px;
 	color: #666;
+}
+/*------------------------------Article Page---------------------------*/
+section.articles{
+	background-color: #F3F3F3;
+	min-width: 1000px;
+}
+
+section.articles .container .one-article{
+	padding: 0 0 0 20px;
+}
+
+section.articles .container .one-article .sidebar-menu{
+	float: right;
+}
+
+section.articles .container .one-article .sidebar-menu nav{
+	background-image: url('./images/bg-sidebar.gif');
+	background-repeat: repeat-y;
+	background-position: 25px 0;
+	padding-bottom: 65px;
+}
+
+section.articles .container .one-article .sidebar-menu nav menu{
+	padding: 0;
+}
+
+section.articles .container .one-article .sidebar-menu nav menu li a{
+	display: block;
+	padding: 4px 0 8px 19px;
+	font-size: 13px;
+	background-image: url('./images/separator3.gif');
+	background-repeat: repeat-x;
+	background-position: bottom;
+	margin-left: 25px;
+}
+
+section.articles .container .one-article .sidebar-menu nav menu li a:hover{
+	background-image: url('./images/sprite.png');
+	background-repeat: no-repeat;
+	background-position: 13px -38px;
+	color: #fff;
+	margin-left: 0;
+}
+
+section.articles .container .one-article .sidebar-menu nav menu li a p{
+	margin-right: 20px;
+}
+
+section.articles .container .one-article .detail-article{
+	margin-right: 350px;
+	min-height: 800px;
 }
