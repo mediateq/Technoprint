@@ -1119,3 +1119,12 @@ section.sub-products .container .one-produce .produce .detail .detail-text .text
 	margin-top: 5px;
 	font-size: 13px;
 }
+/*------------------------------Products Intro Page---------------------------*/
+section.about-us{
+	background-color: #F3F3F3;
+	min-width: 1000px;
+}
+
+section.about-us .container{
+	min-height: 800px;
+}
