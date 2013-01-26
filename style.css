@@ -1183,40 +1183,34 @@ section.articles .container .one-article .sidebar-menu{
 	float: right;
 }
 
-section.articles .container .one-article .sidebar-menu nav{
-	background-image: url('./images/bg-sidebar.gif');
-	background-repeat: repeat-y;
-	background-position: 25px 0;
-	padding-bottom: 65px;
-}
-
-section.articles .container .one-article .sidebar-menu nav menu{
-	padding: 0;
-}
-
 section.articles .container .one-article .sidebar-menu nav menu li a{
 	display: block;
-	padding: 4px 0 8px 19px;
+	padding: 8px 18px;
 	font-size: 13px;
-	background-image: url('./images/separator3.gif');
-	background-repeat: repeat-x;
-	background-position: bottom;
-	margin-left: 25px;
 }
 
 section.articles .container .one-article .sidebar-menu nav menu li a:hover{
 	background-image: url('./images/sprite.png');
 	background-repeat: no-repeat;
-	background-position: 13px -38px;
+	background-position: 0 -35px;
 	color: #fff;
-	margin-left: 0;
 }
 
-section.articles .container .one-article .sidebar-menu nav menu li a p{
-	margin-right: 20px;
+section.articles .container .one-article .sidebar-menu nav menu .hline{
+	width: 192px;
 }
 
 section.articles .container .one-article .detail-article{
-	margin-right: 350px;
-	min-height: 800px;
+	margin-right: 260px;
+}
+
+section.articles .container .one-article .detail-article h2{
+	font-size: 17px;
+	margin-bottom: 11px;
+}
+
+section.articles .container .one-article .detail-article p{
+	margin-top: 10px;
+	font-size: 15px;
+	line-height: 2;
 }
