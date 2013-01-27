@@ -163,9 +163,9 @@ header .main-header .container .menu nav menu li:first-child a{
 }
 /*End of Main Menu*/
 /*Start Submenu of Main Menu*/
-header .main-header .container .menu nav menu li menu{
+header .main-header .container .menu nav menu li ul{
 	position: absolute;
-	top: 38px;
+	top: 23px;
 	right: 0;
 	z-index: 100;
 	background-color: #222;
@@ -178,7 +178,7 @@ header .main-header .container .menu nav menu li menu{
 	padding: 0;
 }
 
-header .main-header .container .menu nav menu li:hover menu,
+header .main-header .container .menu nav menu li:hover ul,
 header .main-header .container .menu nav > menu > li:hover > a{
 	display: block;
 	background-color: #222;
@@ -189,15 +189,15 @@ header .main-header .container .menu nav > menu > li:hover > a{
 	transition: all 100ms;
 }
 
-header .main-header .container .menu nav menu li menu li:first-child a{
+header .main-header .container .menu nav menu li ul li:first-child a{
 	margin-top: 15px;
 }
 
-header .main-header .container .menu nav menu li menu li{
+header .main-header .container .menu nav menu li ul li{
 	margin: 0 5px;
 }
 
-header .main-header .container .menu nav menu li menu li a{
+header .main-header .container .menu nav menu li ul li a{
 	margin: 5px 0;
 	padding: 5px 15px 5px 50px;
 	white-space: nowrap;
@@ -208,7 +208,7 @@ header .main-header .container .menu nav menu li menu li a{
 	transition: background-color 600ms;
 }
 
-header .main-header .container .menu nav menu li menu li:hover a{
+header .main-header .container .menu nav menu li ul li:hover a{
 	background-color: #5A7C87;
 	-webkit-transition: background-color 300ms;
 	-moz-transition: background-color 300ms;

@@ -19,12 +19,19 @@
 			<div class="container">
 				<div class="menu">
 					<nav>
-						<menu>
-							<li><a href="#">صفحه اصلی</a></li>
-							<li><a href="#">درباره ما</a></li>
-							<li><a href="#">نقشه سایت</a></li>
-							<li><a href="#">تماس با ما</a></li>
-						</menu>
+						<?php
+							wp_nav_menu( array(
+								'theme_location'  => 'topheadermenu',
+							    'container'       => false, 
+							    'container_class' => '', 
+							    'menu_class'      => '', 
+							    'before'          => '',
+							    'after'           => '',
+							    'link_before'     => '',
+							    'link_after'      => '',
+							    'items_wrap'      => '<menu>%3$s</menu>'
+							));
+						?>
 						<div class="badboy"></div>
 					</nav>
 				</div>
@@ -44,46 +51,24 @@
 				<div class="container">
 					<div class="menu">
 						<nav>
-							<menu>
-								<li><a href="#">صفحه اصلی</a>
-									<menu>
-										<li><a href="#">صفحه اصلی</a></li>
-										<li><a href="#">درباره ما</a></li>
-										<li><a href="#">محصولات</a></li>
-										<li><a href="#">مقالات</a></li>
-										<li><a href="#">گالری تصاویر</a></li>
-										<li><a href="#">تماس با ما</a></li>
-									</menu>
-								</li>
-								<li><a href="#">درباره ما</a></li>
-								<li><a href="#">محصولات</a>
-									<menu>
-										<li><a href="#">صفحه اصلی</a></li>
-										<li><a href="#">درباره ما</a></li>
-										<li><a href="#">محصولات</a></li>
-										<li><a href="#">مقالات</a></li>
-										<li><a href="#">گالری تصاویر</a></li>
-										<li><a href="#">تماس با ما</a></li>
-									</menu>
-								</li>
-								<li><a href="#">مقالات</a>
-									<menu>
-										<li><a href="#">صفحه اصلی</a></li>
-										<li><a href="#">درباره ما</a></li>
-										<li><a href="#">محصولات</a></li>
-										<li><a href="#">مقالات</a></li>
-										<li><a href="#">گالری تصاویر</a></li>
-										<li><a href="#">تماس با ما</a></li>
-									</menu>
-								</li>
-								<li><a href="#">گالری تصاویر</a></li>
-								<li><a href="#">تماس با ما</a></li>
-							</menu>
+							<?php
+								wp_nav_menu( array(
+									'theme_location'  => 'mainmenu',
+								    'container'       => false, 
+								    'container_class' => '', 
+								    'menu_class'      => '', 
+								    'before'          => '',
+								    'after'           => '',
+								    'link_before'     => '',
+								    'link_after'      => '',
+								    'items_wrap'      => '<menu>%3$s</menu>'
+								));
+							?>
 							<div class="badboy"></div>
 						</nav>
 					</div>
 					<div class="logo ltr">
-						<a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="techno peint" /><h2><span class="techno">Techno </span><span class="print"> Print</span></h2></a>
+						<a href="./"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="techno peint" /><h2><span class="techno">Techno </span><span class="print"> Print</span></h2></a>
 					</div>
 					<div class="badboy"></div>
 				</div>

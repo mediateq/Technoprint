@@ -80,13 +80,19 @@
 				</div>
 				<div class="menu">
 					<nav>
-						<menu>
-							<li><p><a href="#">صفحه اصلی</a></p></li>
-							<li><p><a href="#">درباره ما</a></p></li>
-							<li><p><a href="#">مقالات</a></p></li>
-							<li><p><a href="#">نقشه سایت</a></p></li>
-							<li><p><a href="#">تماس با ما</a></p></li>
-						</menu>
+						<?php
+							wp_nav_menu( array(
+								'theme_location'  => 'footermenu',
+							    'container'       => false, 
+							    'container_class' => '', 
+							    'menu_class'      => '', 
+							    'before'          => '<p>',
+							    'after'           => '</p>',
+							    'link_before'     => '',
+							    'link_after'      => '',
+							    'items_wrap'      => '<menu>%3$s</menu>'
+							));
+						?>
 						<div class="badboy"></div>
 					</nav>
 				</div>
