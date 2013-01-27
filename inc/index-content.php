@@ -1,158 +1,46 @@
 <script>
-	Galleria.loadTheme('./js/galleria.classic.js');
+	Galleria.loadTheme('<?php bloginfo('template_url'); ?>/js/galleria.classic.js');
 
 	Galleria.run('#galleria');
 </script>
 
 <section class="middle">
+	<?php
+		if (have_posts()){
+			the_post();
+	?>
 	<div class="container">
 		<div class="slideshow ltr">
 			<div class="content"> 
 		        <div id="galleria">
-		            <a href="./images/others/1.jpg">
-		                <img 
-		                    src="./images/others/1.jpg",
-		                    data-big="./images/others/1.jpg"
-		                    data-title="Biandintz eta zaldiak"
-		                    data-description="Horses on Bianditz mountain, in Navarre, Spain."
-		                >
-		            </a>
-		            <a href="./images/others/2.jpg">
-		                <img 
-		                    src="./images/others/2.jpg",
-		                    data-big="./images/others/2.jpg"
-		                    data-title="Athabasca Rail"
-		                    data-description="The Athabasca River railroad track at the mouth of Brulé Lake in Alberta, Canada."
-		                >
-		            </a>
-		            <a href="./images/others/3.jpg">
-		                <img 
-		                    src="./images/others/3.jpg",
-		                    data-big="./images/others/3.jpg"
-		                    data-title="Back-scattering crepuscular rays"
-		                    data-description="Picture of the day on Wikimedia Commons 26 September 2010."
-		                >
-		            </a>
-		            <a href="./images/others/4.jpg">
-		                <img 
-		                    src="./images/others/4.jpg",
-		                    data-big="./images/others/4.jpg"
-		                    data-title="Interior convento"
-		                    data-description="Interior view of Yuriria Convent, founded in 1550."
-		                >
-		            </a>
-		            <a href="./images/others/5.jpg">
-		                <img 
-		                    src="./images/others/5.jpg",
-		                    data-big="./images/others/5.jpg"
-		                    data-title="Oxbow Bend outlook"
-		                    data-description="View over the Snake River to the Mount Moran with the Skillet Glacier."
-		                >
-		            </a>
-		            <a href="./images/others/6.jpg">
-		                <img 
-		                    src="./images/others/6.jpg",
-		                    data-big="./images/others/6.jpg"
-		                    data-title="Hazy blue hour"
-		                    data-description="Hazy blue hour in Grand Canyon. View from the South Rim."
-		                >
-		            </a>
-		            <a href="./images/others/7.jpg">
-		                <img 
-		                    src="./images/others/7.jpg",
-		                    data-big="./images/others/7.jpg"
-		                    data-title="Biandintz eta zaldiak"
-		                    data-description="Horses on Bianditz mountain, in Navarre, Spain."
-		                >
-		            </a>
-		            <a href="./images/others/8.jpg">
-		                <img 
-		                    src="./images/others/8.jpg",
-		                    data-big="./images/others/8.jpg"
-		                    data-title="Athabasca Rail"
-		                    data-description="The Athabasca River railroad track at the mouth of Brulé Lake in Alberta, Canada."
-		                >
-		            </a>
-		            <a href="./images/others/9.jpg">
-		                <img 
-		                    src="./images/others/9.jpg",
-		                    data-big="./images/others/9.jpg"
-		                    data-title="Back-scattering crepuscular rays"
-		                    data-description="Picture of the day on Wikimedia Commons 26 September 2010."
-		                >
-		            </a>
-		            <a href="./images/others/1.jpg">
-		                <img 
-		                    src="./images/others/1.jpg",
-		                    data-big="./images/others/1.jpg"
-		                    data-title="Interior convento"
-		                    data-description="Interior view of Yuriria Convent, founded in 1550."
-		                >
-		            </a>
-		            <a href="./images/others/2.jpg">
-		                <img 
-		                    src="./images/others/2.jpg",
-		                    data-big="./images/others/2.jpg"
-		                    data-title="Oxbow Bend outlook"
-		                    data-description="View over the Snake River to the Mount Moran with the Skillet Glacier."
-		                >
-		            </a>
-		            <a href="./images/others/3.jpg">
-		                <img 
-		                    src="./images/others/3.jpg",
-		                    data-big="./images/others/3.jpg"
-		                    data-title="Hazy blue hour"
-		                    data-description="Hazy blue hour in Grand Canyon. View from the South Rim."
-		                >
-		            </a>
-		            <a href="./images/others/4.jpg">
-		                <img 
-		                    src="./images/others/4.jpg",
-		                    data-big="./images/others/4.jpg"
-		                    data-title="Biandintz eta zaldiak"
-		                    data-description="Horses on Bianditz mountain, in Navarre, Spain."
-		                >
-		            </a>
-		            <a href="./images/others/5.jpg">
-		                <img 
-		                    src="./images/others/5.jpg",
-		                    data-big="./images/others/5.jpg"
-		                    data-title="Athabasca Rail"
-		                    data-description="The Athabasca River railroad track at the mouth of Brulé Lake in Alberta, Canada."
-		                >
-		            </a>
-		            <a href="./images/others/6.jpg">
-		                <img 
-		                    src="./images/others/6.jpg",
-		                    data-big="./images/others/6.jpg"
-		                    data-title="Back-scattering crepuscular rays"
-		                    data-description="Picture of the day on Wikimedia Commons 26 September 2010."
-		                >
-		            </a>
-		            <a href="./images/others/7.jpg">
-		                <img 
-		                    src="./images/others/7.jpg",
-		                    data-big="./images/others/7.jpg"
-		                    data-title="Interior convento"
-		                    data-description="Interior view of Yuriria Convent, founded in 1550."
-		                >
-		            </a>
-		            <a href="./images/others/8.jpg">
-		                <img 
-		                    src="./images/others/8.jpg",
-		                    data-big="./images/others/8.jpg"
-		                    data-title="Oxbow Bend outlook"
-		                    data-description="View over the Snake River to the Mount Moran with the Skillet Glacier."
-		                >
-		            </a>
-		            <a href="./images/others/9.jpg">
-		                <img 
-		                    src="./images/others/9.jpg",
-		                    data-big="./images/others/9.jpg"
-		                    data-title="Hazy blue hour"
-		                    data-description="Hazy blue hour in Grand Canyon. View from the South Rim."
-		                >
-		            </a>
+	        		<?php
+						$slide_attach= array(
+							'numberposts' => '-1',
+							'orderby '=> 'menu_order',  
+							'order'=> 'ASC',  
+							'post_mime_type' => 'image', 
+							'post_parent' => $post->ID, 
+							'post_status' => null, 
+							'post_type' => 'attachment'
+						);
+
+						$images= get_children($slide_attach);
+
+						if ($images){
+
+							foreach ($images as $img) {
+								
+								$img_img= wp_get_attachment_image($img->ID,'large');
+								$img_src= wp_get_attachment_image_src($img->ID,'large');
+
+								echo "
+									<a href=\"$img_src[0]\">
+										<img src=\"$img_src[0]\" data-big=\"$img_src[0]\" />
+									</a>
+									 ";
+							}
+						}
+					?> 		           
 		        </div>
 		    </div>
 		</div>
@@ -250,4 +138,7 @@
 			<div class="badboy"></div>
 		</div>
 	</div>
+	<?php
+		}
+	?>
 </section>
