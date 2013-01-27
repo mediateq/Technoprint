@@ -1,40 +1,20 @@
-<?php get_template_part('./inc/header') ?>
+<?php 
+	/*
+		Template Name: contact
+	*/
+	get_template_part('./inc/header'); 
+?>
 
 <section class="contact">
 	<div class="container">
 		<!-- start Title of each page -->
-		<div id="title-pages">
-			<div id="top-pic"></div>
-			<div id="main-pic">
-				<div id="title">
-					<h2>تماس با ما</h2>
-				</div>
-				<div id="search">
-					<div class="search-box">
-						<form action="">
-							<input type="text" class="text" placeholder="جستجو" />
-							<input type="submit" value="" class="submit" />
-						</form>
-					</div>
-				</div>
-				<div id="menu">
-					<nav>
-						<menu>
-							<li><a href="#"><p>تماس با ما</p></a><span></span></li>
-							<li><a href="#"><p>صفحه اصلی</p></a><span></span></li>
-						</menu>
-					</nav>
-				</div>
-				<div class="badboy"></div>
-			</div>
-			<div id="bot-pic"></div>
-		</div>
+		<?php get_template_part('./inc/title'); ?>
 		<!-- end Title of each page -->
 		<div class="form-detail">
 			<div class="form">
-				<div class="tit"><p>تماس با ما</p></div>
+				<div class="tit"><h2>تماس با ما</h2></div>
 				<div class="text"><p>با تشکر از بازدید سایت شما می توانید از راه زیر با ما تماس حاصل فرمائید.</p></div>
-				<form action="mail.php" id="contact" method="post" target="_blank">
+				<form action="<?php bloginfo('template_url') ?>/mail.php" id="contact" method="post" target="_blank">
 					<p><span>*</span> نام و نام خانوادگی</p>
 					<input type="text"  class="text" name="name" id="name" autocomplete="off" />
 					<p><span>*</span> ایمیل</p>

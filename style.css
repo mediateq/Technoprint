@@ -45,6 +45,14 @@ h2,p{
 .ltr{
 	direction:ltr;
 }
+
+.ok {
+	outline : 1px solid #9f9;
+}
+
+.err {
+	outline : 1px solid #f99;
+}
 /*------------------------------Header-------------------------------*/
 /*Top Header*/
 header .top-header{
@@ -494,7 +502,6 @@ footer .main-footer .container .forth form input{
 	width: 195px;
 	height: 25px;
 	margin-bottom: 15px;
-	outline: none;
 }
 
 footer .main-footer .container .forth form button{
@@ -754,7 +761,7 @@ section.contact .container .form-detail .form{
 }
 
 
-section.contact .container .form-detail .form .tit p{
+section.contact .container .form-detail .form .tit h2{
 	font-size: 18px;
 }
 
@@ -779,14 +786,12 @@ section.contact .container .form-detail .form form p span{
 section.contact .container .form-detail .form form input{
 	width: 360px;
 	height: 30px;
-	outline: none;
 }
 
 section.contact .container .form-detail .form form textarea{
 	float: right;
 	width: 535px;
 	height: 210px;
-	outline: none;
 }
 
 section.contact .container .form-detail .form form input.button{
@@ -1144,7 +1149,7 @@ section.about-us .container .about{
 
 section.about-us .container .about h2{
 	margin: 0;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 section.about-us .container .about p{

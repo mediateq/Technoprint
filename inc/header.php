@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/slideshow.css" />
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/zepto.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slideshow.js"></script>
     <!--[if lt IE 9]>
 		<script src="<?php bloginfo('template_url'); ?>/js/html5shiv.js"></script>
