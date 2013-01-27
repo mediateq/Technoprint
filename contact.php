@@ -14,7 +14,7 @@
 			<div class="form">
 				<div class="tit"><h2>تماس با ما</h2></div>
 				<div class="text"><p>با تشکر از بازدید سایت شما می توانید از راه زیر با ما تماس حاصل فرمائید.</p></div>
-				<form action="<?php bloginfo('template_url') ?>/mail.php" id="contact" method="post" target="_blank">
+				<form action="<?php bloginfo('template_url') ?>/mail.php" id="contact" method="post" target="ifrm">
 					<p><span>*</span> نام و نام خانوادگی</p>
 					<input type="text"  class="text" name="name" id="name" autocomplete="off" />
 					<p><span>*</span> ایمیل</p>
@@ -24,6 +24,7 @@
 					<p>پر کردن فیلدهای <span>ستاره دار</span> الزامیست.</p>
 					<input type="submit" class="button" id="submit" name="submit" value="ارسال" />
 				</form>
+				<iframe id='ifrm' name='ifrm' src="" frameborder="0" scrolling="no"></iframe>
 			<div class="badboy"></div>
 			</div>
 			<div class="detail">
