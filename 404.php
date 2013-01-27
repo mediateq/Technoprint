@@ -21,7 +21,7 @@
 					<nav>
 						<menu>
 							<li><a href="#"><p>404</p></a><span></span></li>
-							<li><a href="#"><p>صفحه اصلی</p></a><span></span></li>
+							<li><a href="./"><p>صفحه اصلی</p></a><span></span></li>
 						</menu>
 					</nav>
 				</div>
@@ -37,9 +37,9 @@
 				<div class="menu">
 					<nav>
 						<menu>
-							<li><a href="#">صفحه اصلی</a></li>
-							<li><a href="#">نقشه سایت</a></li>
-							<li><a href="#">تماس با ما</a></li>
+							<li><a href="./">صفحه اصلی</a></li>
+							<li><a href="http://localhost/Technoprint/محصولات/">محصولات</a></li>
+							<li><a href="http://localhost/Technoprint/تماس-با-ما/">تماس با ما</a></li>
 						</menu>
 					</nav>
 				</div>
