@@ -1144,12 +1144,13 @@ section.about-us .container .about{
 
 section.about-us .container .about h2{
 	margin: 0;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 section.about-us .container .about p{
 	margin-top: 5px;
 	font-size: 16px;
+	line-height: 2;
 }
 
 section.about-us .container .about .hr-shadow{
