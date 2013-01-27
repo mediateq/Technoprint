@@ -1,4 +1,9 @@
-<?php get_template_part('./inc/header') ?>
+<?php 
+	/*
+		Template Name: 404
+	*/
+	get_template_part('./inc/header'); ?>
+?>
 
 <section class="not-found">
 	<div class="container">
