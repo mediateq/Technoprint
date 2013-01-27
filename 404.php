@@ -1,7 +1,4 @@
 <?php 
-	/*
-		Template Name: 404
-	*/
 	get_template_part('./inc/header'); ?>
 ?>
 
