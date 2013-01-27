@@ -1,5 +1,5 @@
-<?php include('./inc/header.php') ?>
+<?php get_template_part('./inc/header') ?>
 
-<?php include('./inc/index-content.php') ?>
+<?php get_template_part('./inc/index-content') ?>
 
-<?php include('./inc/footer.php') ?>
+<?php get_template_part('./inc/footer') ?>

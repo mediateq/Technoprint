@@ -1,4 +1,4 @@
-<?php include('./inc/header.php') ?>
+<?php get_template_part('./inc/header') ?>
 
 <section class="about-us">
 	<div class="container">
@@ -55,4 +55,4 @@
 	</div>
 </section>
 
-<?php include('./inc/footer.php') ?>
+<?php get_template_part('./inc/footer') ?>

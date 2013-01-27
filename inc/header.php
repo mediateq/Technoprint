@@ -2,12 +2,12 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Technoprint</title>
-	<link rel="stylesheet" type="text/css" href="./1styles.css" />
-	<link rel="stylesheet" type="text/css" href="./style.css" />
-	<link rel="stylesheet" type="text/css" href="./slideshow.css" />
-	<script src="./js/jquery.js" type="text/javascript"></script>
-    <script src="./js/slideshow.js" type="text/javascript"></script>
+	<title><?php bloginfo('name'); wp_title(); ?></title>
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/1styles.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/slideshow.css" />
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slideshow.js"></script>
 </head>
 <body>
 	<header>
@@ -80,7 +80,7 @@
 						</nav>
 					</div>
 					<div class="logo ltr">
-						<a href="#"><img src="./images/logo.png" alt="techno peint" /><h2><span class="techno">Techno </span><span class="print"> Print</span></h2></a>
+						<a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="techno peint" /><h2><span class="techno">Techno </span><span class="print"> Print</span></h2></a>
 					</div>
 					<div class="badboy"></div>
 				</div>

@@ -17,21 +17,21 @@
 					</div>
 					<div class="click-here">
 						<a href="#" title="">
-							<img src="./images/footer-useful-link.png" alt="" />
+							<img src="<?php bloginfo('template_url'); ?>/images/footer-useful-link.png" alt="" />
 						</a>
 						<p>لینک های مفید خود را در این قسمت قرار داده تا کاربر...</p>
 					</div>
 					<div class="badboy"></div>
 					<div class="click-here">
 						<a href="#" title="">
-							<img src="./images/footer-useful-link.png" alt="" />
+							<img src="<?php bloginfo('template_url'); ?>/images/footer-useful-link.png" alt="" />
 						</a>
 						<p>لینک های مفید خود را در این قسمت قرار داده تا کاربر...</p>
 					</div>
 					<div class="badboy"></div>
 					<div class="click-here">
 						<a href="#" title="">
-							<img src="./images/footer-useful-link.png" alt="" />
+							<img src="<?php bloginfo('template_url'); ?>/images/footer-useful-link.png" alt="" />
 						</a>
 						<p>لینک های مفید خود را در این قسمت قرار داده تا کاربر...</p>
 					</div>
