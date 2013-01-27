@@ -21,14 +21,19 @@
 				<?php
 					wp_nav_menu( array(
 						'theme_location'  => 'titlemenu',
+						'menu'            => '', 
 					    'container'       => false, 
 					    'container_class' => '', 
-					    'menu_class'      => '', 
+					    'menu_class'      => '',
+					    'echo'            => true, 
+					    'fallback_cb'     => 'wp_page_menu',
 					    'before'          => '',
 					    'after'           => '',
 					    'link_before'     => '<p>',
-					    'link_after'      => '</p>',
-					    'items_wrap'      => '<menu>%3$s</menu>'
+					    'link_after'      => '</p><span></span>',
+					    'items_wrap'      => '<menu>%3$s</menu>',
+					    'depth'           => 0,
+					    'walker'          => ''
 					));
 				?>
 			</nav>
