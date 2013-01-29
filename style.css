@@ -1215,21 +1215,28 @@ section.articles .container .one-article .sidebar-menu{
 	float: right;
 }
 
-section.articles .container .one-article .sidebar-menu nav menu li a{
+section.articles .container .one-article .sidebar-menu nav menu li a p{
 	display: block;
-	padding: 8px 18px;
+	padding: 8px 18px 8px 18px;
 	font-size: 13px;
+	margin-bottom: 3px;
 }
 
-section.articles .container .one-article .sidebar-menu nav menu li a:hover{
+section.articles .container .one-article .sidebar-menu nav menu li.current_page_item a p,
+section.articles .container .one-article .sidebar-menu nav menu li a p:hover{
 	background-image: url('./images/sprite.png');
 	background-repeat: no-repeat;
 	background-position: 0 -35px;
 	color: #fff;
 }
 
-section.articles .container .one-article .sidebar-menu nav menu .hline{
+section.articles .container .one-article .sidebar-menu nav menu li span{
+	display: block;	
 	width: 192px;
+	min-height: 2px;
+	background-image: url('./images/separator3.gif');
+	background-repeat: repeat-x;
+	margin-left: 13px;
 }
 
 section.articles .container .one-article .detail-article{
@@ -1238,7 +1245,7 @@ section.articles .container .one-article .detail-article{
 
 section.articles .container .one-article .detail-article h2{
 	font-size: 17px;
-	margin-bottom: 11px;
+	margin-bottom: 15px;
 }
 
 section.articles .container .one-article .detail-article p{

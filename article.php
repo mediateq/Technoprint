@@ -1,54 +1,31 @@
-<?php get_template_part('./inc/header') ?>
+<?php 
+	/*
+		Template Name: article
+	*/
+	get_template_part('./inc/header') 
+?>
 
 <section class="articles">
 	<div class="container">
 		<!-- start Title of each page -->
-		<div id="title-pages">
-			<div id="top-pic"></div>
-			<div id="main-pic">
-				<div id="title">
-					<h2>مقالات</h2>
-				</div>
-				<div id="search">
-					<div class="search-box">
-						<form action="">
-							<input type="text" class="text" placeholder="جستجو" />
-							<input type="submit" value="" class="submit" />
-						</form>
-					</div>
-				</div>
-				<div id="menu">
-					<nav>
-						<menu>
-							<li><a href="#"><p>مقالات</p></a><span></span></li>
-							<li><a href="#"><p>صفحه اصلی</p></a><span></span></li>
-						</menu>
-					</nav>
-				</div>
-				<div class="badboy"></div>
-			</div>
-			<div id="bot-pic"></div>
-		</div>
+		<?php get_template_part('./inc/title'); ?>
 		<!-- end Title of each page -->
 		<div class="one-article">
 			<div class="sidebar-menu">
 				<nav>
-					<menu>
-						<li><a href="#"><p>تاریخچه بارکد</p></a></li>
-						<div class="hline"></div>
-						<li><a href="#"><p>موارد استفاده از بارکد</p></a></li>
-						<div class="hline"></div>
-						<li><a href="#"><p>سخت افزارهای تخصصی بارکد</p></a></li>
-						<div class="hline"></div>
-						<li><a href="#"><p>سخت‌افزارهای تخصصی بارکد</p></a></li>
-						<div class="hline"></div>
-						<li><a href="#"><p>توجیه اقتصادی استفاده از بارکد</p></a></li>
-						<div class="hline"></div>
-						<li><a href="#"><p>توجیه اقتصادی استفاده از بارکد</p></a></li>
-						<div class="hline"></div>
-						<li><a href="#"><p>توجیه اقتصادی استفاده از بارکد</p></a></li>
-						<div class="hline"></div>
-					</menu>
+					<?php
+						wp_nav_menu( array(
+							'theme_location'  => 'articlemenu',
+						    'container'       => false, 
+						    'container_class' => '', 
+						    'menu_class'      => '', 
+						    'before'          => '',
+						    'after'           => '',
+						    'link_before'     => '<p>',
+						    'link_after'      => '</p><span></span>',
+						    'items_wrap'      => '<menu>%3$s</menu>'
+						));
+					?>
 				</nav>
 				<div class="badboy"></div>
 			</div>

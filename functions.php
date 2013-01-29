@@ -9,3 +9,5 @@
 	register_nav_menu('footermenu',"Footer menu");
 
 	register_nav_menu('titlemenu',"Title of each page");
+
+	register_nav_menu('articlemenu',"Article menu");
