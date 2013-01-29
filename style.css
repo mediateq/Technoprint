@@ -1221,8 +1221,7 @@ section.articles .container .one-article .sidebar-menu nav menu li a p{
 	font-size: 13px;
 	margin-bottom: 3px;
 }
-
-section.articles .container .one-article .sidebar-menu nav menu li.current_page_item a p,
+section.articles .container .one-article .sidebar-menu nav menu li.current-menu-item a p,
 section.articles .container .one-article .sidebar-menu nav menu li a p:hover{
 	background-image: url('./images/sprite.png');
 	background-repeat: no-repeat;

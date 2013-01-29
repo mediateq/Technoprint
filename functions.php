@@ -63,7 +63,6 @@
 		while($article->have_posts()){
 			$article->the_post();
 
-			// $url     = get_permalink();
 			$title   = get_the_title();
 			$content = get_the_content();
 
@@ -71,9 +70,7 @@
 							<div class='tit'><h2> $title </h2></div>
 							<div class='hline'></div>
 							<div class='text'>
-								<p>
-									$content
-								</p>
+								$content
 							</div>
 						</div>";
 		}
