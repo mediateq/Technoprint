@@ -1,5 +1,5 @@
 <?php 
-	get_template_part('./inc/header'); ?>
+	get_template_part('./inc/header');
 ?>
 
 <section class="not-found">
