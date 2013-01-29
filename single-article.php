@@ -29,8 +29,23 @@
 					<div class="badboy"></div>
 				</nav>
 			</div>
+			<?php 
+				if (have_posts()) {
+					the_post();
+			?>
+			<div class='detail-article'>
+				<div class='tit'><h2> <?php the_title(); ?> </h2></div>
+				<div class='hline'></div>
+				<div class='text'>
+					<p>
+						<?php the_content(); ?>
+					</p>
+				</div>
+			</div>
+			<?php 
+				}
+			?>
 			<div class="badboy"></div>
-
 		</div>
 	</div>
 </section>

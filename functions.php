@@ -58,9 +58,7 @@
 		'post_type' => 'article'
 	));
 
-		$html = "<section class='articles'>
-				 	<div class='container'>
-				 	<div class='one-article'>";
+		$html = "<div class='one-article'>";
 
 		while($article->have_posts()){
 			$article->the_post();
@@ -80,9 +78,7 @@
 						</div>";
 		}
 
-		$html 	.= "	</div>
-						</div>
-					</section>";
+		$html 	.= "</div>";
 					
 		return $html;
 	}
