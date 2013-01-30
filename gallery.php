@@ -10,10 +10,6 @@
 		<!-- start Title of each page -->
 		<?php get_template_part('./inc/title'); ?>
 		<!-- end Title of each page -->
-		<?php
-			if (have_posts()) {
-				the_post();
-		?>
 		<div class="gallery-pic">
 			<ul>
 				<?php
@@ -59,9 +55,6 @@
 				<a href="#">2</a>
 			</div>
 		</div>
-		<?php
-			}
-		?>
 	</div>
 </section>
 
