@@ -39,7 +39,7 @@
 								echo "		<div class='effe'></div> 
 									  	</a>
 									  </div>";
-								echo "<div class='text'><p> $img->post_content </p></div>";
+								echo "<div class='tit'><h2> $img->post_content </h2></div>";
 							
 							echo "</li>";
 						}						
