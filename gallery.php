@@ -10,127 +10,58 @@
 		<!-- start Title of each page -->
 		<?php get_template_part('./inc/title'); ?>
 		<!-- end Title of each page -->
+		<?php
+			if (have_posts()) {
+				the_post();
+		?>
 		<div class="gallery-pic">
-			<div class="first">
-				<div class="frame">
-					<div class="pic">
-						<a href="#">
-							<img src="./images/others/g1.jpg" alt="">
-							<div class="effe"></div>
-						</a>
-					</div>
-				</div>
-				<div class="tit"><h2>عکس شماره...</h2></div>
-				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
-			</div>
-			<div class="second">
-				<div class="frame">
-					<div class="pic">
-						<a href="#">
-							<img src="./images/others/g2.jpg" alt="">
-							<div class="effe"></div>
-						</a>
-					</div>
-				</div>
-				<div class="tit"><h2>عکس شماره...</h2></div>
-				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
-			</div>
-			<div class="third">
-				<div class="frame">
-					<div class="pic">
-						<a href="#">
-							<img src="./images/others/g3.jpg" alt="">
-							<div class="effe"></div>
-						</a>
-					</div>
-				</div>
-				<div class="tit"><h2>عکس شماره...</h2></div>
-				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
-			</div>
-			<div class="badboy"></div>
+			<ul>
+				<?php
+					$gall_attach= array(
+								'numberposts' => '-1',
+								'orderby '=> 'menu_order',  
+								'order'=> 'DESC',  
+								'post_mime_type' => 'image', 
+								'post_parent' => $post->ID, 
+								'post_status' => null, 
+								'post_type' => 'attachment'
+					);
 
-			<div class="first">
-				<div class="frame">
-					<div class="pic">
-						<a href="#">
-							<img src="./images/others/g1.jpg" alt="">
-							<div class="effe"></div>
-						</a>
-					</div>
-				</div>
-				<div class="tit"><h2>عکس شماره...</h2></div>
-				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
-			</div>
-			<div class="second">
-				<div class="frame">
-					<div class="pic">
-						<a href="#">
-							<img src="./images/others/g2.jpg" alt="">
-							<div class="effe"></div>
-						</a>
-					</div>
-				</div>
-				<div class="tit"><h2>عکس شماره...</h2></div>
-				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
-			</div>
-			<div class="third">
-				<div class="frame">
-					<div class="pic">
-						<a href="#">
-							<img src="./images/others/g3.jpg" alt="">
-							<div class="effe"></div>
-						</a>
-					</div>
-				</div>
-				<div class="tit"><h2>عکس شماره...</h2></div>
-				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
-			</div>
-			<div class="badboy"></div>
+					$images= get_children($gall_attach);
 
-			<div class="first">
-				<div class="frame">
-					<div class="pic">
-						<a href="#">
-							<img src="./images/others/g1.jpg" alt="">
-							<div class="effe"></div>
-						</a>
-					</div>
-				</div>
-				<div class="tit"><h2>عکس شماره...</h2></div>
-				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
-			</div>
-			<div class="second">
-				<div class="frame">
-					<div class="pic">
-						<a href="#">
-							<img src="./images/others/g2.jpg" alt="">
-							<div class="effe"></div>
-						</a>
-					</div>
-				</div>
-				<div class="tit"><h2>عکس شماره...</h2></div>
-				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
-			</div>
-			<div class="third">
-				<div class="frame">
-					<div class="pic">
-						<a href="#">
-							<img src="./images/others/g3.jpg" alt="">
-							<div class="effe"></div>
-						</a>
-					</div>
-				</div>
-				<div class="tit"><h2>عکس شماره...</h2></div>
-				<div class="text"><p>شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس شرح عکس </p></div>
-			</div>
-			<div class="badboy"></div>
+					if ($images){
 
+						foreach ($images as $img) {
+
+							echo "<li>
+								 	 <div class='pic'>";
+
+								$img_med  = wp_get_attachment_image($img->ID,'medium');
+								$img_larg = wp_get_attachment_image_src($img->ID,'large');
+								
+								echo "	<a rel='lightbox[group1]' href=\"$img_larg[0]\" title=\"$img->post_content\"> $img_med";
+								echo "		<div class='effe'></div> 
+									  	</a>
+									  </div>";
+								echo "<div class='text'><p> $img->post_content </p></div>";
+							
+							echo "</li>";
+						}						
+
+					}
+					else echo "<p class='no-image'>تصویری در گالری موجود نمی باشد</p>";
+				?>
+			</ul>
+			<div class="badboy"></div>
 
 			<div class="pages">
 				<a href="#">1</a>
 				<a href="#">2</a>
 			</div>
 		</div>
+		<?php
+			}
+		?>
 	</div>
 </section>
 
