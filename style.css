@@ -907,7 +907,7 @@ section.gallery{
 }
 
 section.gallery .container .gallery-pic{
-	padding: 0 20px;
+	padding: 0 20px 0 0;
 }
 
 section.gallery .container .gallery-pic ul{
@@ -917,12 +917,8 @@ section.gallery .container .gallery-pic ul{
 section.gallery .container .gallery-pic ul li{
 	float: right;
 	width: 293px;
-	margin-right: 15px;
+	margin-left: 15px;
 	margin-bottom: 45px;
-}
-
-section.gallery .container .gallery-pic li:first-child{
-	margin-right: 0;
 }
 
 section.gallery .container .gallery-pic li{
