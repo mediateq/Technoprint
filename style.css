@@ -971,6 +971,11 @@ section.gallery .container .gallery-pic li img{
 
 section.gallery .container .gallery-pic h2{
 	font-size: 17px;
+	margin-top: 25px;
+}
+
+section.gallery .container .gallery-pic .pages{
+	margin-top: 30px;
 }
 
 section.gallery .container .gallery-pic .pages a{
