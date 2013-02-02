@@ -1,34 +1,14 @@
-<?php get_template_part('./inc/header') ?>
+<?php 
+	/*
+		Template Name: product
+	*/
+	get_template_part('./inc/header') 
+?>
 
 <section class="products">
 	<div class="container">
 		<!-- start Title of each page -->
-		<div id="title-pages">
-			<div id="top-pic"></div>
-			<div id="main-pic">
-				<div id="title">
-					<h2>محصولات</h2>
-				</div>
-				<div id="search">
-					<div class="search-box">
-						<form action="">
-							<input type="text" class="text" placeholder="جستجو" />
-							<input type="submit" value="" class="submit" />
-						</form>
-					</div>
-				</div>
-				<div id="menu">
-					<nav>
-						<menu>
-							<li><a href="#"><p>محصولات</p></a><span></span></li>
-							<li><a href="#"><p>صفحه اصلی</p></a><span></span></li>
-						</menu>
-					</nav>
-				</div>
-				<div class="badboy"></div>
-			</div>
-			<div id="bot-pic"></div>
-		</div>
+		<?php get_template_part('./inc/title'); ?>
 		<!-- end Title of each page -->
 		<div class="all-products">
 			<div class="product">
@@ -87,21 +67,7 @@
 				</ul>
 			</div>
 			<!-- Start Categories of product -->
-			<div id="cat">
-				<div class="vline"></div>
-				<h2>گروه بندی محصولات</h2>
-				<nav>
-					<menu>
-						<li><a href="#">اسکنر</a></li>
-						<li><a href="#">موس</a></li>
-						<li><a href="#">پرینتر</a></li>
-						<li><a href="#">دوربین</a></li>
-						<li><a href="#">کی بورد</a></li>
-					</menu>
-				</nav>
-				<div class="hline"></div>
-				<div class="badboy"></div>
-			</div>
+			<?php get_template_part('./inc/product-cat'); ?>
 			<!-- End Categories of product -->
 			<div class="badboy"></div>
 		</div>

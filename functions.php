@@ -12,6 +12,8 @@
 
 	register_nav_menu('articlemenu',"Article menu");
 
+	register_nav_menu('catproduct',"Product category");
+
 //////////////////////////// Article page ////////////////////////////////
 	add_theme_support('post-thumbnails');
 
