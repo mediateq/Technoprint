@@ -2,6 +2,8 @@
 	
 	add_theme_support('menus');
 
+	add_theme_support('post-thumbnails');
+
 	register_nav_menu('topheadermenu',"Top header menu");
 
 	register_nav_menu('mainmenu',"Main menu");
@@ -15,8 +17,6 @@
 	register_nav_menu('catproduct',"Product category");
 
 //////////////////////////// Article page ////////////////////////////////
-	add_theme_support('post-thumbnails');
-
 	add_action('init','article_init');
 
 	function article_init(){
@@ -83,8 +83,6 @@
 	}
 
 //////////////////////////// Product page ////////////////////////////////
-	add_theme_support('post-thumbnails');
-
 	add_action('init', 'product_init');
 
 	function product_init(){
