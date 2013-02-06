@@ -1062,6 +1062,7 @@ section.products .container .all-products ul li a p.price{
 #cat nav menu{
 	margin-right: 30px;
 	margin-bottom: 20px;
+	padding: 0;
 }
 
 #cat nav menu li{
