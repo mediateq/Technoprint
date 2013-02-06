@@ -1,4 +1,7 @@
 <?php 
+	/*
+		Template Name: temp
+	*/
 	get_template_part('./inc/header'); 
 ?>
 
@@ -10,15 +13,9 @@
 		<div class="all-products">
 				<div class="product">
 					<ul>
-						<li>
-							<?php $url = get_permalink(); ?>
-							<a href="<?php $url ?>">
-								<?php the_post_thumbnail(); ?>
-								<h2 class="product-name"><?php the_title(); ?></h2>
-								<p><?php the_content(); ?></p>
-								<p class="price">قیمت: <b><?php echo get_post_meta(get_the_ID(),'product_price',true); ?>تومان</b></p>
-							</a>
-						</li>
+						
+						<?php the_content(); ?>
+						
 					</ul>
 				</div>
 				<!-- Start Categories of product -->

@@ -1003,6 +1003,11 @@ section.products .container .all-products .product p{
 	font-size: 20px;
 }
 
+section.products .container .all-products ul{
+	margin: 0;
+	padding: 0;
+}
+
 section.products .container .all-products ul li{
 	float: right;
 	width: 150px;
@@ -1025,6 +1030,10 @@ section.products .container .all-products ul li img{
 	-ms-box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.3);
 	-o-box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.3);
 	box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+section.products .container .all-products ul li a p.price{
+	font-size: 16px;
 }
 
 #cat{

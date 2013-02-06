@@ -85,7 +85,7 @@
 //////////////////////////// Product page ////////////////////////////////
 	add_theme_support('post-thumbnails');
 
-	add_action('init','product_init');
+	add_action('init', 'product_init');
 
 	function product_init(){
 		$labels = array(
@@ -115,21 +115,51 @@
 		'hierarchical' => false,
 		'menu_position' => 5,
 		'menu_icon' => get_bloginfo('template_url') . '/images/producticon.png',
-		'supports' => array('title','editor','thumbnail','excerpt','comments'),
+		'supports' => array('title','editor','thumbnail','excerpt'),
 	);
 
 		register_post_type('product', $args);
+		
+		register_taxonomy_for_object_type('category', 'product');
+	}
+
+	add_action('add_meta_boxes', 'product_add_custom_box');
+
+	function product_add_custom_box(){
+		add_meta_box('product_priceid', 'Product Price', 'product_price_box', 'product', 'side');
+	}
+
+	function product_price_box(){
+		$price = 0;
+		if ( isset($_REQUEST['post']) ) {
+			$price = get_post_meta((int)$_REQUEST['post'],'product_price',true);
+		}
+		echo "<label for='product_price_text'>Product Price</label>";
+		echo "<input id='product_price_text' class='widefat' name='product_price_text' size='20' type='text' value='$price' />";
+	}
+
+	add_action('save_post','product_save_meta');
+
+	function product_save_meta($post_id){
+		if ( is_admin() ) {
+			if ( isset($_POST['product_price_text']) ) {
+				update_post_meta($post_id,'product_price',$_POST['product_price_text']);
+			}
+		}
 	}
 
 	add_shortcode('product', 'all_product');
 
 	function all_product(){
+
+		if(!@$args['cat']) $args['cat']='';
+
 		$product = new WP_Query(array(
-		'post_type' => 'product'
+		'post_type' => 'product',
+		'category_name' => $args['cat']
 	));
 
-		$html = "<div class='all-products'>
-					<div class='product'>";
+		$html = "<ul>";
 
 		while($product->have_posts()){
 			$product->the_post();
@@ -140,15 +170,14 @@
 			$content = get_the_content();
 
 			$html 	.= "<li>
-							<a href=\"$link\">
-								$img
-								<h2 class='product-name'> $content </h2>
-							</a>
+						<a href=\"$link\">
+							$img
+							<h2 class='product-name'> $title </h2>
+						</a>
 						</li>";
 		}
 
-		$html 	.= "	</div>
-					</div>";
+		$html 	.= "</ul>";
 					
 		return $html;
 	}
