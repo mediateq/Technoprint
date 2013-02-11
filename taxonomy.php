@@ -1,6 +1,5 @@
 <?php 
 	get_template_part('./inc/header');
-	$term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
 ?>
 
 <section class="sub-products">
