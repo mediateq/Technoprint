@@ -85,7 +85,7 @@
 						<input type="text" class="text" name="name" id="name" autocomplete="off" />
 						<p>* ایمیل</p>
 						<input type="text" type="text" class="text" name="email" id="email" autocomplete="off" />
-						<p>پر کردن فیلدهای * الزامیست</p>
+						<p>پر کردن فیلدهای ستاره دار الزامیست</p>
 						<button type="submit"><p>ارسال</p></button>
 					</form>
 					<iframe id='ifrm' name='ifrm' src="" frameborder="0" scrolling="no"></iframe>
