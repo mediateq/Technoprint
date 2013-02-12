@@ -327,6 +327,11 @@ section.middle .container .products .desc .txt p{
 	font-size: 14px;
 }
 
+section.middle .container .products ul{
+	list-style-type: disc;
+	margin-right: 15px;
+}
+
 section.middle .container .partner{
 	padding: 0 5px;
 }

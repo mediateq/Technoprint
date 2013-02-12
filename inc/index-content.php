@@ -54,65 +54,76 @@
 		<div class="products">
 			<div class="first">
 				<div class="frame">
-					<a href="#"><img src="./images/others/frame1.jpg" alt="" /></a>
+					<a href="#"><img src="<?php bloginfo('template_url'); ?>/images/scanners.png" alt="" /></a>
 				</div>
 				<div class="desc">
 					<div class="title"><h2>بارکد خوان</h2></div>
 					<div class="txt">
-						<p>
-							توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی
-						</p>
+						<ul>
+                            <li><p>بارکدخوان های بیسیم</p></li>
+                            <li><p>بارکدخوان های چند پرتو</p></li>
+                            <li><p>بارکدخوان های دوبعدی</p></li>
+                           <li><p>دستگاه جمع آوری داده (هندهلد)</p></li>
+                        </ul>
 					</div>
 					<div class="link">
-						<p><a href="#">...بیشتر</a></p>
+						<p><a href="#">بیشتر...</a></p>
 					</div>
 				</div>
 			</div>
 			<div class="second">
 				<div class="frame">
-					<a href="#"><img src="./images/others/frame2.jpg" alt="" /></a>
+					<a href="#"><img src="<?php bloginfo('template_url'); ?>/images/printer.png" alt="" /></a>
 				</div>
 				<div class="desc">
 					<div class="title"><h2>چاپگر بارکد</h2></div>
 					<div class="txt">
-						<p>
-							توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی
-						</p>
+						<ul>
+                            <li><p>چاپگرهای لیبل</p></li>
+                            <li><p>چاپگرهای کارت</p></li>
+                            <li><p>چاپگرهای صدور فیش</p></li>
+                        </ul>
 					</div>
 					<div class="link">
-						<p><a href="#">...بیشتر</a></p>
+						<p><a href="#">بیشتر...</a></p>
 					</div>
 				</div>
 			</div>
 			<div class="third">
 				<div class="frame">
-					<a href="#"><img src="./images/others/frame3.jpg" alt="" /></a>
+					<a href="#"><img src="<?php bloginfo('template_url'); ?>/images/application.png" alt="" /></a>
 				</div>
 				<div class="desc">
 					<div class="title"><h2>نرم افزار</h2></div>
 					<div class="txt">
-						<p>
-							توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی
-						</p>
+						<ul>
+                            <li><p>نرم افزارهای حسابداری</p></li>
+                            <li><p>نرم افزارهای توزین و لیبلینگ کالا</p></li>
+                            <li><p>نرم افزارهای ردیابی کالا</p></li>
+                            <li><p>نرم افزارهای کنترل خط تولید</p></li>
+                            <li><p>نرم افزارهای مدیریت انبار</p></li>
+                        </ul>
 					</div>
 					<div class="link">
-						<p><a href="#">...بیشتر</a></p>
+						<p><a href="#">بیشتر...</a></p>
 					</div>
 				</div>
 			</div>
 			<div class="forth">
 				<div class="frame">
-					<a href="#"><img src="./images/others/frame4.jpg" alt="" /></a>
+					<a href="#"><img src="<?php bloginfo('template_url'); ?>/images/Consumables.png" alt="" /></a>
 				</div>
 				<div class="desc">
 					<div class="title"><h2>مواد مصرفی</h2></div>
 					<div class="txt">
-						<p>
-							توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی توضیحات اضافی
-						</p>
+						<ul>                       
+                            <li><p>انواع برچسب های بارکد</p></li>
+                            <li><p>انواع ریبون ها</p></li>
+                            <li><p>انواع کاغذهای حرارتی</p></li>
+                        </ul>
 					</div>
 					<div class="link">
-						<p><a href="#">...بیشتر</a></p>
+						<p><a href="#">بیشتر...</a></p>
 					</div>
 				</div>
 			</div>
