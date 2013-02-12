@@ -19,6 +19,7 @@
 <body>
 	<header>
 		<!-- Top Header -->
+		<a id="myAnchor"></a>
 		<div class="top-header">
 			<div class="container">
 				<div class="menu">

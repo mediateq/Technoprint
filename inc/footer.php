@@ -98,7 +98,7 @@
 		<div class="bot-footer">
 			<div class="container">
 				<div class="top">
-					<a href="#"><p>بالا</p></a>
+					<a href="#myAnchor" id="anchor1" class="anchorLink"><p>بالا</p></a>
 					<div class="badboy"></div>
 				</div>
 				<div class="copyright">
