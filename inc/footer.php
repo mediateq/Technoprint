@@ -6,10 +6,37 @@
 					<div class="tit">
 						<h2>مطالب مرتبط</h2>
 					</div>
-					<div class="title"><h2>تیتر مقاله اول</h2></div>
-					<div class="text"><a href="#" title=""><p>متن مقاله اول متن مقاله اول متن مقاله اول متن مقاله اول متن مقاله اول</p></a></div>
-					<div class="title"><h2>تیتر مقاله دوم</h2></div>
-					<div class="text"><a href="#" title=""><p>متن مقاله دوم متن مقاله دوم متن مقاله دوم متن مقاله دوم متن مقاله دوم متن مقاله دوم</p></a></div>
+					<?php $args = array(
+					    'numberposts' => 2,
+					    'offset' => 0,
+					    'category' => 0,
+					    'orderby' => 'post_date',
+					    'order' => 'DESC',
+					    'include' => '',
+					    'exclude' => '',
+					    'meta_key' => '',
+					    'meta_value' =>'',
+					    'post_type' => 'article',
+					    'post_status' => 'draft, publish, future, pending, private',
+					    'suppress_filters' => true 
+					    ); 
+
+						$recent_posts = wp_get_recent_posts( $args );
+
+						foreach( $recent_posts as $recent ){
+
+							$url     = get_permalink($recent["ID"]);
+							$title   = $recent["post_title"];
+							$pict    = get_the_post_thumbnail($recent["ID"], "medium");
+
+							echo "<div class='title'>
+	                               	<h2> $title </h2>
+								  </div>
+								  <div class='text'>
+									<a href=\"$url\"><p>متن مقاله اول متن مقاله اول متن مقاله اول متن مقاله اول متن مقاله اول</p></a>
+								  </div>";
+						}
+					?>
 				</div>
 				<div class="second">
 					<div class="tit">
