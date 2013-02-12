@@ -80,14 +80,15 @@
 					<div class="tit">
 						<h2>پیوستن به ما</h2>
 					</div>
-					<form action="mail.php">
+					<form action="<?php bloginfo('template_url') ?>/mail.php" method="post" id="contact" target="ifrm">
 						<p>* نام و نام خانوادگی</p>
-						<input type="text" />
+						<input type="text" class="text" name="name" id="name" autocomplete="off" />
 						<p>* ایمیل</p>
-						<input type="email" />
+						<input type="text" type="text" class="text" name="email" id="email" autocomplete="off" />
 						<p>پر کردن فیلدهای * الزامیست</p>
 						<button type="submit"><p>ارسال</p></button>
 					</form>
+					<iframe id='ifrm' name='ifrm' src="" frameborder="0" scrolling="no"></iframe>
 					<div class="badboy"></div>
 				</div>
 				<div class="badboy"></div>
