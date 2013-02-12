@@ -104,6 +104,10 @@
 				<div class="copyright">
 					<p>
 						کپی رایت 1391 - کلیه حقوق این سایت متعلق به تکنو پرینت می باشد.
+
+					</p>
+					<p>
+						<a href="http://www.mediateq.ir" target="_blank">طراح mediateq</a>
 					</p>
 				</div>
 				<div class="menu">

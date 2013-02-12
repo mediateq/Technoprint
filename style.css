@@ -560,7 +560,7 @@ footer .bot-footer{
 }
 
 footer .bot-footer .container{
-	padding: 33px 0;
+	padding: 33px 0 15px;
 }
 
 footer .bot-footer .container .top{
@@ -632,6 +632,17 @@ footer .bot-footer .container .copyright p{
 	font-size: 12px;
 	margin-top: 4px;
 	text-align: left;
+}
+
+footer .bot-footer .container .copyright a{
+	color: #7A93A1;
+	font-size: 12px;
+	margin-top: 4px;
+	text-align: left;
+}
+
+footer .bot-footer .container .copyright a:hover{
+	color: #BCBCBC;
 }
 /*------------------------------Title of each page--------------------------------*/
 #title-pages{
