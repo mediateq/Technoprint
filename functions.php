@@ -168,10 +168,10 @@
 			$content = get_the_content();
 
 			$html 	.= "<li>
-						<a href=\"$link\">
-							$img
-							<h2 class='product-name'> $title </h2>
-						</a>
+							<a href=\"$link\">
+								$img
+								<h2 class='product-name'> $title </h2>
+							</a>
 						</li>";
 		}
 
@@ -182,22 +182,22 @@
 
 	function add_custom_taxonomies() {
 		// Add new "Locations" taxonomy to Posts
-		register_taxonomy('location', 'product', array(
+		register_taxonomy('products', 'product', array(
 			// Hierarchical taxonomy (like categories)
 			'hierarchical' => true,
 			// This array of options controls the labels displayed in the WordPress Admin UI
 			'labels' => array(
-				'name' => _x( 'Locations', 'taxonomy general name' ),
-				'singular_name' => _x( 'Location', 'taxonomy singular name' ),
-				'search_items' =>  __( 'Search Locations' ),
-				'all_items' => __( 'All Locations' ),
-				'parent_item' => __( 'Parent Location' ),
-				'parent_item_colon' => __( 'Parent Location:' ),
-				'edit_item' => __( 'Edit Location' ),
-				'update_item' => __( 'Update Location' ),
-				'add_new_item' => __( 'Add New Location' ),
-				'new_item_name' => __( 'New Location Name' ),
-				'menu_name' => __( 'Locations' ),
+				'name' => _x( 'دسته بندی محصولات', 'taxonomy general name' ),
+				'singular_name' => _x( 'دسته بندی محصول', 'taxonomy singular name' ),
+				'search_items' =>  __( 'جستجوی محصول' ),
+				'all_items' => __( 'همه محصولات' ),
+				'parent_item' => __( 'مادر محصولات' ),
+				'parent_item_colon' => __( 'مادر محصولات:' ),
+				'edit_item' => __( 'ویرایش محصول' ),
+				'update_item' => __( 'بروزرسانی محصول' ),
+				'add_new_item' => __( 'اضافه نمودن محصول' ),
+				'new_item_name' => __( 'اسم محصول جدید' ),
+				'menu_name' => __( 'دسته بندی محصولات' ),
 			),
 			// Control the slugs used for this taxonomy
 			'rewrite' => array(
