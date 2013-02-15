@@ -1,5 +1,6 @@
 <?php 
 	get_template_part('./inc/header');
+	$term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
 ?>
 
 <section class="sub-products">
@@ -48,7 +49,7 @@
 		<!-- end Title of each page -->
 		<div class="all-products">
 			<div class="product">
-								
+								hlhlhljklhjl
 				<!-- Start Categories of product -->
 				<?php get_template_part('./inc/product-cat'); ?>
 				<!-- End Categories of product -->
