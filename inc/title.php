@@ -9,12 +9,7 @@
 			<h2><?php the_title(); ?></h2>
 		</div>
 		<div id="search">
-			<div class="search-box">
-				<form action="">
-					<input type="text" class="text" placeholder="جستجو" />
-					<input type="submit" value="" class="submit" />
-				</form>
-			</div>
+			<gcse:searchbox-only></gcse:searchbox-only>
 		</div>
 		<div id="menu">
 			<nav>

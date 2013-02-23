@@ -685,37 +685,35 @@ footer .bot-footer .container .copyright a:hover{
 	float: left;
 	width: 210px;
 	height: 48px;
+	padding: 9px 2px;
 }
 
-#title-pages #main-pic #search .search-box{
-	background: #111f22;
-	margin-top: 11px;
+#title-pages #main-pic #search table{
+	direction: rtl;
 }
 
-#title-pages #main-pic #search .search-box input{
-	background: #111f22;
+#title-pages #main-pic #search .gsc-control-cse{
 	border: 0;
-	float: right;
-	outline: none;
+	background-color: transparent;
 }
 
-#title-pages #main-pic #search .search-box input.text{
-	border-radius: 0px 5px 5px 0px;
-	width: 150px;
-	height: 23px;
-	color: #fff;
-	padding: 3px 6px;
+#title-pages #main-pic #search .cse input.gsc-search-button,
+#title-pages #main-pic #search input.gsc-search-button,
+#title-pages #main-pic #search .gsc-input-box{
+	border: 0;
+}
+
+#title-pages #main-pic #search input.gsc-search-button,
+#title-pages #main-pic #search input.gsc-search-button-v2{
+	margin-right: 5px;
+	margin-top: 4px;
+	background-color: #1b2a2f;
+	background-image: none;
+}
+
+#title-pages #main-pic #search .gsc-input{
+	padding: 0;
 	text-align: right;
-}
-
-#title-pages #main-pic #search .search-box input.submit{
-	border-radius: 5px 0px 0px 5px;
-	background-image: url('./images/search.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 25px;
-	height: 29px;
-	padding-right: 10px;
 }
 
 #title-pages #main-pic #menu{

@@ -4,6 +4,15 @@
 	<meta charset="UTF-8">
 	<title><?php bloginfo('name'); wp_title(); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/1styles.css" />
+	<script>
+	  (function() {
+		    var cx = '002646456999169240394:15fxoggryg4';
+		    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+		    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+		        '//www.google.com/cse/cse.js?cx=' + cx;
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+	  })();
+	</script>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/slideshow.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/lightbox.css" />
