@@ -49,11 +49,6 @@
 				?>
 			</ul>
 			<div class="badboy"></div>
-
-			<div class="pages">
-				<a href="#">1</a>
-				<a href="#">2</a>
-			</div>
 		</div>
 	</div>
 </section>
