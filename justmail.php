@@ -25,10 +25,8 @@
 
 		$name    = $_POST['name'];
 		$email   = $_POST['email'];
-		$subject = $_POST['subject'];
-		$text    = $_POST['message'];
 
-		if( strlen($name)>=3 && strlen($email)>=7 && strlen($text)>=10 ){
+		if( strlen($name)>=3 && strlen($email)>=7 ){
 			if( @mail (
 					$admin,
 					"$subject",
@@ -36,12 +34,12 @@
 					"From:$name $email" )
 			){
 				echo '<script type="text/javascript">
-						alert("پیام شما با موفقیت ارسال شد.");
+						alert("ایمیل شما با موفقیت ارسال شد.");
 					  </script>';
 
 			}else{
 				echo '<script type="text/javascript">
-						alert("خطا! پیام شما ارسال نشد لطفا مجددا تلاش نمایید.");
+						alert("خطا! ایمیل شما ارسال نشد لطفا مجددا تلاش نمایید.");
 					  </script>';
 			}
 		}else{

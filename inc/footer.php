@@ -80,7 +80,7 @@
 					<div class="tit">
 						<h2>پیوستن به ما</h2>
 					</div>
-					<form action="<?php bloginfo('template_url') ?>/mail.php" method="post" id="contact" target="ifrm">
+					<form action="<?php bloginfo('template_url') ?>/justmail.php" method="post" id="contact" target="ifrm">
 						<p>* نام و نام خانوادگی</p>
 						<input type="text" class="text" name="name" id="name" autocomplete="off" />
 						<p>* ایمیل</p>
