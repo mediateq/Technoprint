@@ -44,14 +44,14 @@
 					</div>
 					<div class="click-here">
 						<a href="http://www.thebarcodewarehouse.co.uk/default.aspx" target="_blank">
-							<img src="<?php bloginfo('template_url'); ?>/images/footer-useful-link.png" alt="" />
+							<img src="<?php bloginfo('template_url'); ?>/images/footer-useful-link.png" alt="Barcode warehouse" />
 						</a>
 						<p>Barcode warehouse</p>
 					</div>
 					<div class="badboy"></div>
 					<div class="click-here">
 						<a href="http://www.barcodesinc.com/cats/barcode.htm" target="_blank">
-							<img src="<?php bloginfo('template_url'); ?>/images/footer-useful-link.png" alt="" />
+							<img src="<?php bloginfo('template_url'); ?>/images/footer-useful-link.png" alt="Barcodes inc" />
 						</a>
 						<p>Barcodes inc</p>
 					</div>
@@ -84,9 +84,9 @@
 						<p>* نام و نام خانوادگی</p>
 						<input type="text" class="text" name="name" id="name" autocomplete="off" />
 						<p>* ایمیل</p>
-						<input type="text" type="text" class="text" name="email" id="email" autocomplete="off" />
+						<input type="text" class="text" name="email" id="email" autocomplete="off" />
 						<p>پر کردن فیلدهای ستاره دار الزامیست</p>
-						<button type="submit"><p>ارسال</p></button>
+						<button type="submit">ارسال</button>
 					</form>
 					<iframe id='ifrm' name='ifrm' src="" frameborder="0" scrolling="no"></iframe>
 					<div class="badboy"></div>

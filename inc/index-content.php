@@ -54,7 +54,7 @@
 		<div class="products">
 			<div class="first">
 				<div class="frame">
-					<a href="#"><img src="<?php bloginfo('template_url'); ?>/images/scanners.png" alt="" /></a>
+					<a href="http://technoprints.ir/?products=%D8%A7%D8%B3%DA%A9%D9%86%D8%B1"><img src="<?php bloginfo('template_url'); ?>/images/scanners.png" alt="barcode scanner" /></a>
 				</div>
 				<div class="desc">
 					<div class="title"><h2>بارکد خوان</h2></div>
@@ -67,13 +67,13 @@
                         </ul>
 					</div>
 					<div class="link">
-						<p><a href="#">بیشتر...</a></p>
+						<p><a href="http://technoprints.ir/?products=%D8%A7%D8%B3%DA%A9%D9%86%D8%B1">بیشتر...</a></p>
 					</div>
 				</div>
 			</div>
 			<div class="second">
 				<div class="frame">
-					<a href="#"><img src="<?php bloginfo('template_url'); ?>/images/printer.png" alt="" /></a>
+					<a href="http://technoprints.ir/?products=%D9%BE%D8%B1%DB%8C%D9%86%D8%AA%D8%B1"><img src="<?php bloginfo('template_url'); ?>/images/printer.png" alt="barcode printer" /></a>
 				</div>
 				<div class="desc">
 					<div class="title"><h2>چاپگر بارکد</h2></div>
@@ -85,13 +85,13 @@
                         </ul>
 					</div>
 					<div class="link">
-						<p><a href="#">بیشتر...</a></p>
+						<p><a href="http://technoprints.ir/?products=%D9%BE%D8%B1%DB%8C%D9%86%D8%AA%D8%B1">بیشتر...</a></p>
 					</div>
 				</div>
 			</div>
 			<div class="third">
 				<div class="frame">
-					<a href="#"><img src="<?php bloginfo('template_url'); ?>/images/application.png" alt="" /></a>
+					<a href="http://technoprints.ir/?products=%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1"><img src="<?php bloginfo('template_url'); ?>/images/application.png" alt="barcode software" /></a>
 				</div>
 				<div class="desc">
 					<div class="title"><h2>نرم افزار</h2></div>
@@ -105,13 +105,13 @@
                         </ul>
 					</div>
 					<div class="link">
-						<p><a href="#">بیشتر...</a></p>
+						<p><a href="http://technoprints.ir/?products=%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1">بیشتر...</a></p>
 					</div>
 				</div>
 			</div>
 			<div class="forth">
 				<div class="frame">
-					<a href="#"><img src="<?php bloginfo('template_url'); ?>/images/Consumables.png" alt="" /></a>
+					<a href="http://technoprints.ir/?products=%D9%85%D9%88%D8%A7%D8%AF-%D9%85%D8%B5%D8%B1%D9%81%DB%8C"><img src="<?php bloginfo('template_url'); ?>/images/Consumables.png" alt="barcode material" /></a>
 				</div>
 				<div class="desc">
 					<div class="title"><h2>مواد مصرفی</h2></div>
@@ -123,7 +123,7 @@
                         </ul>
 					</div>
 					<div class="link">
-						<p><a href="#">بیشتر...</a></p>
+						<p><a href="http://technoprints.ir/?products=%D9%85%D9%88%D8%A7%D8%AF-%D9%85%D8%B5%D8%B1%D9%81%DB%8C">بیشتر...</a></p>
 					</div>
 				</div>
 			</div>
