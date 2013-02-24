@@ -124,7 +124,7 @@
 	add_action('add_meta_boxes', 'product_add_custom_box');
 
 	function product_add_custom_box(){
-		add_meta_box('product_priceid', 'Product Price', 'product_price_box', 'product', 'side');
+		add_meta_box('product_priceid', 'قیمت محصول', 'product_price_box', 'product', 'side');
 	}
 
 	function product_price_box(){
@@ -132,7 +132,7 @@
 		if ( isset($_REQUEST['post']) ) {
 			$price = get_post_meta((int)$_REQUEST['post'],'product_price',true);
 		}
-		echo "<label for='product_price_text'>Product Price</label>";
+		echo "<label for='product_price_text'>قیمت محصول</label>";
 		echo "<input id='product_price_text' class='widefat' name='product_price_text' size='20' type='text' value='$price' />";
 	}
 

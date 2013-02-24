@@ -43,24 +43,24 @@
 						<h2>لینک های مفید</h2>
 					</div>
 					<div class="click-here">
-						<a href="#" title="">
+						<a href="http://www.thebarcodewarehouse.co.uk/default.aspx" target="_blank">
 							<img src="<?php bloginfo('template_url'); ?>/images/footer-useful-link.png" alt="" />
 						</a>
-						<p>لینک های مفید خود را در این قسمت قرار داده تا کاربر...</p>
+						<p>Barcode warehouse</p>
 					</div>
 					<div class="badboy"></div>
 					<div class="click-here">
-						<a href="#" title="">
+						<a href="http://www.barcodesinc.com/cats/barcode.htm" target="_blank">
 							<img src="<?php bloginfo('template_url'); ?>/images/footer-useful-link.png" alt="" />
 						</a>
-						<p>لینک های مفید خود را در این قسمت قرار داده تا کاربر...</p>
+						<p>Barcodes inc</p>
 					</div>
 					<div class="badboy"></div>
 					<div class="click-here">
-						<a href="#" title="">
+						<a href="http://www.barcodegiant.com" target="_blank">
 							<img src="<?php bloginfo('template_url'); ?>/images/footer-useful-link.png" alt="" />
 						</a>
-						<p>لینک های مفید خود را در این قسمت قرار داده تا کاربر...</p>
+						<p>Barcode giant</p>
 					</div>
 					<div class="badboy"></div>
 				</div>

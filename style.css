@@ -427,7 +427,7 @@ footer .main-footer .container .link{
 }
 
 footer .main-footer .container .second .click-here{
-	margin-bottom: 17px;
+	margin-bottom: 50px;
 }
 
 footer .main-footer .container .second .click-here img{
@@ -670,7 +670,7 @@ footer .bot-footer .container .copyright a:hover{
 
 #title-pages #main-pic #title{
 	float: right;
-	width: 270px;
+	width: 370px;
 	height: 48px;
 	margin-right: 20px;
 	margin-top: 8px;
@@ -717,7 +717,7 @@ footer .bot-footer .container .copyright a:hover{
 }
 
 #title-pages #main-pic #menu{
-	margin-right: 290px;
+	margin-right: 390px;
 	margin-left: 220px;
 	height: 48px;
 }

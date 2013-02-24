@@ -135,7 +135,7 @@
 				<a href="http://www.zebra.com/gb/en.html" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/Zebra-Logo.png" alt="zebra"></a>
 			</div>
 			<div class="second">
-				<a href="http://www.datalogic.com" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/datalogic-Logo.png" alt="datalogic"></a>
+				<a href="http://www.datalogic.com" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/datalogic.png" alt="datalogic"></a>
 			</div>
 			<div class="third">
 				<a href="http://www.motorolasolutions.com/US-EN/Home" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/symbol_logo.png" alt="symbol"></a>
