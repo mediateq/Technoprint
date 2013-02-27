@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 	<meta charset="UTF-8">
 	<title><?php bloginfo('name'); wp_title(); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/1styles.css" />
