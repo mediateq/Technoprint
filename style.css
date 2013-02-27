@@ -869,6 +869,12 @@ section.contact .container .form-detail .detail .phone-pic .map iframe{
 	margin-top: 90px;
 	margin-right: 70px;
 }
+
+section.contact .container .addres p{
+	font-size: 17px;
+	line-height: 2;
+	margin-top: 15px;
+}
 /*------------------------------Contact Page---------------------------*/
 section.not-found{
 	background-color: #F3F3F3;

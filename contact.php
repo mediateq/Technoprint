@@ -35,6 +35,9 @@
 				</div>
 			</div>
 			<div class="badboy"></div>
+			<div class="addres">
+				<?php the_content(); ?>
+			</div>
 		</div>
 	</div>
 </section>
