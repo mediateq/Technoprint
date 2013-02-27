@@ -17,7 +17,7 @@
 					</div>
 					<div class="detail">
 						<div class="tit"><h2><?php the_title(); ?></h2></div>
-						<div class="price"><p>قیمت: <b><?php echo get_post_meta(get_the_ID(),'product_price',true); ?> تومان</b></p></div>
+						<div class="price"><p>قیمت: <b><?php echo get_post_meta(get_the_ID(),'product_price',true); ?></b></p></div>
 						<div class="detail-text">
 							<ul>
 								<li>جزئیات</li>
