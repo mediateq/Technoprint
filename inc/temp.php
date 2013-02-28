@@ -12,11 +12,7 @@
 		<!-- end Title of each page -->
 		<div class="all-products">
 				<div class="product">
-					<ul>
-						
-						<?php the_content(); ?>
-						
-					</ul>
+					<?php the_content(); ?>
 				</div>
 				<!-- Start Categories of product -->
 				<?php get_template_part('./inc/product-cat'); ?>
