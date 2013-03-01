@@ -83,7 +83,7 @@
 						</nav>
 					</div>
 					<div class="logo ltr">
-						<a href="./"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="techno peint" /><h2><span class="techno">Techno </span><span class="print"> Print</span></h2></a>
+						<a href="./"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="techno print" /><h2><span class="techno">Techno </span><span class="print"> Print</span></h2></a>
 					</div>
 					<div class="badboy"></div>
 				</div>
