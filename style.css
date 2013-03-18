@@ -537,6 +537,7 @@ footer .main-footer .container .forth form button{
 	-ms-transition: opacity 500ms;
 	-o-transition: opacity 500ms;
 	transition: opacity 500ms;
+	border: none;
 }
 
 footer .main-footer .container .forth form button:hover{
