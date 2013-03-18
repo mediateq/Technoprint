@@ -107,7 +107,7 @@
 
 					</p>
 					<p>
-						<a href="http://www.mediateq.ir" target="_blank">طراح mediateq</a>
+						<a href="http://www.mediateq.ir" target="_blank">Designed by mediateq</a>
 					</p>
 				</div>
 				<div class="menu">
