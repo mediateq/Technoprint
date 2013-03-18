@@ -1052,12 +1052,7 @@ section.products .container .all-products ul li h2.product-name{
 section.products .container .all-products ul li img{
 	width: 150px;
 	height: 150px;
-	outline: 3px solid #FAFAFA;
-	-webkit-box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.3);
-	-ms-box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.3);
-	-o-box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.3);
-	box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.3);
+	outline: 3px solid #FAFAFA;	
 }
 
 section.products .container .all-products ul li a p.price{
@@ -1132,11 +1127,6 @@ section.sub-products .container .one-produce .produce .pic img{
 	width: 300px;
 	height: 300px;
 	outline: 3px solid #FAFAFA;
-	-webkit-box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.3);
-	-ms-box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.3);
-	-o-box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.3);
-	box-shadow: 3px 7px 15px 0 rgba(0, 0, 0, 0.3);
 	cursor: url('./images/zoom_in.png'),pointer;
 }
 
