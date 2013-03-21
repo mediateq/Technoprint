@@ -106,9 +106,21 @@
 						کپی رایت 1391 - کلیه حقوق این سایت متعلق به تکنو پرینت می باشد.
 
 					</p>
-					<p>
+					<p class="company">
 						<a href="http://www.mediateq.ir" target="_blank">Designed by Mediateq</a>
 					</p>
+					<div class="amar">
+						<div style="display:none;">
+							<script type="text/javascript" src="http://counter.toolsir.com/secure.js"></script>
+							<script type="text/javascript">
+							  var _torder = '&pic=1';
+							  var _turl = 'http://www.technoprints.ir';
+							  _tCounter (_torder,_turl);
+							</script>
+						</div>
+						<a href="http://www.toolsir.com/counter/url/technoprints.ir" target="_blank" title="مشاهده کامل آمار"><img src="<?php bloginfo('template_url'); ?>/images/chart.gif" title="گزارش آمار" alt="شمارنده" width="19" height="16" /></a>
+					</div>
+					<div class="badboy"></div>
 				</div>
 				<div class="menu">
 					<nav>

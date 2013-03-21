@@ -646,6 +646,15 @@ footer .bot-footer .container .copyright a{
 footer .bot-footer .container .copyright a:hover{
 	color: #BCBCBC;
 }
+
+footer .bot-footer .copyright p.company{
+	display: inline;
+	float: left;
+}
+
+footer .bot-footer .copyright .amar a img{
+	margin-right: 250px;
+}
 /*------------------------------Title of each page--------------------------------*/
 #title-pages{
 	padding-bottom: 50px;
