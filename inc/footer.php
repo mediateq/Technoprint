@@ -27,13 +27,14 @@
 
 							$url     = get_permalink($recent["ID"]);
 							$title   = $recent["post_title"];
+							$content = substr($recent["post_content"], 0, 170);
 							$pict    = get_the_post_thumbnail($recent["ID"], "medium");
 
 							echo "<div class='title'>
 	                               	<h2> $title </h2>
 								  </div>
 								  <div class='text'>
-									<a href=\"$url\"><p>متن مقاله اول متن مقاله اول متن مقاله اول متن مقاله اول متن مقاله اول</p></a>
+									<a href=\"$url\"><p> $content... </p></a>
 								  </div>";
 						}
 					?>
