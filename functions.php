@@ -118,7 +118,6 @@
 
 		register_post_type('product', $args);
 		
-		// register_taxonomy_for_object_type('category', 'product');
 	}
 
 	add_action('add_meta_boxes', 'product_add_custom_box');
@@ -146,39 +145,6 @@
 		}
 	}
 
-	add_shortcode('product', 'all_product');
-
-	function all_product(){
-
-		if(!@$args['cat']) $args['cat']='';
-
-		$product = new WP_Query(array(
-		'post_type' => 'product',
-		'category_name' => $args['cat']
-	));
-
-		$html = "<ul>";
-
-		while($product->have_posts()){
-			$product->the_post();
-
-			$img     = get_the_post_thumbnail();
-			$link    = get_permalink();
-			$title   = get_the_title();
-			$content = get_the_content();
-
-			$html 	.= "<li>
-							<a href=\"$link\">
-								$img
-								<h2 class='product-name'> $title </h2>
-							</a>
-						</li>";
-		}
-
-		$html 	.= "</ul>";
-					
-		return $html;
-	}
 
 	function add_custom_taxonomies() {
 		register_taxonomy('products', 'product', array(
