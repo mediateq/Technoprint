@@ -1069,6 +1069,40 @@ section.products .container .all-products ul li a p.price{
 	font-size: 16px;
 }
 
+section.products .pagelink{
+	text-align: right;
+	font-family: 'Tahoma';
+	padding-bottom: 25px;
+	margin-right: 9px;
+}
+
+section.products .pagelink a,
+section.products .pagelink span{
+	display: inline-block;
+	padding: 2px 7px;
+	background-color: #E14A0A;
+	color: #fff;
+	text-align: center;
+	webkit-transition: background-color .5s;
+	-moz-transition: background-color .5s;
+	-ms-transition: background-color .5s;
+	-o-transition: background-color .5s;
+	transition: background-color .5s;
+}
+
+section.products .pagelink a:hover{
+	background-color: #AAA;
+	-webkit-transition: background-color .7s;
+	-moz-transition: background-color .7s;
+	-ms-transition: background-color .7s;
+	-o-transition: background-color .7s;
+	transition: background-color .7s;
+}
+
+section.products .pagelink span.current{
+	color: #000;
+}
+
 #cat{
 	margin-right: 760px;
 }
