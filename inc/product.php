@@ -14,7 +14,7 @@
 			<div class="product">
 				<ul>
 					<?php
-						query_posts( 'post_type=product&posts_per_page=12&paged=' . $paged);
+						query_posts( 'post_type=product&posts_per_page=20&paged=' . $paged);
 						while(have_posts()){
 							the_post();
 					?>
