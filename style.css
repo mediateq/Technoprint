@@ -1315,3 +1315,15 @@ section.articles .container .one-article .detail-article p{
 	font-size: 15px;
 	line-height: 2;
 }
+
+/*------------------------------preload img---------------------------*/
+span.preload-frame{
+	display: block;
+	width: 208px;
+	height: 140px;
+	background: url('./images/preload-small.gif') center no-repeat;
+}
+
+span.preload-frame img{
+	opacity: 0;
+}

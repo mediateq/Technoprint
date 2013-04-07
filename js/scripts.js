@@ -1,3 +1,11 @@
+window.onload=function(){
+	setTimeout(function(){
+		$('span.preload-frame img').css({opacity:'1'});
+
+	},1600);
+};
+
+
 // Begin valid form 
 function validateText(str,len){
 	return str.length >= len;

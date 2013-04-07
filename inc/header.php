@@ -1,30 +1,34 @@
 <!doctype html>
 <html>
 <head>
+	
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 	<meta charset="UTF-8">
 	<title><?php bloginfo('name'); wp_title(); ?></title>
+
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/1styles.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/flexslider.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/lightbox.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css" />
+
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/zepto.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/lightbox.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
 	<script>
-	  (function() {
-		    var cx = '002646456999169240394:15fxoggryg4';
+		(function() {
+			var cx = '002646456999169240394:15fxoggryg4';
 		    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
 		    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
 		        '//www.google.com/cse/cse.js?cx=' + cx;
 		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
-	  })();
+		})();
 	</script>
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css" />
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/slideshow.css" />
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/lightbox.css" />
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/zepto.js"></script>
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slideshow.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/lightbox.js"></script>
     <!--[if lt IE 9]>
 		<script src="<?php bloginfo('template_url'); ?>/js/html5shiv.js"></script>
 	<![endif]-->
+
 </head>
 <body>
 	<header>

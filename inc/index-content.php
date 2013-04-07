@@ -1,7 +1,12 @@
 <script>
-	Galleria.loadTheme('<?php bloginfo('template_url'); ?>/js/galleria.classic.js');
-
-	Galleria.run('#galleria');
+	$(window).load(function() {
+	  $('.flexslider').flexslider({
+	    animation: "slide",
+	    pauseOnHover: true,
+	    prevText: "",
+	    nextText: "",
+	  });
+	});
 </script>
 
 <section class="middle">
@@ -11,11 +16,11 @@
 	?>
 	<div class="container">
 		<div class="slideshow ltr">
-			<div class="content"> 
-		        <div id="galleria">
-	        		<?php
+			<div class="flexslider">
+				<ul class="slides">
+				    <?php
 						$slide_attach= array(
-							'numberposts' => '-1',
+							'numberposts' => '8',
 							'orderby '=> 'menu_order',  
 							'order'=> 'ASC',  
 							'post_mime_type' => 'image', 
@@ -33,16 +38,14 @@
 								$img_img= wp_get_attachment_image($img->ID,'large');
 								$img_src= wp_get_attachment_image_src($img->ID,'large');
 
-								echo "
-									<a href=\"$img_src[0]\">
-										<img src=\"$img_src[0]\" data-big=\"$img_src[0]\" />
-									</a>
-									 ";
+								echo "<li>
+									 	 <img src=\"$img_src[0]\" />
+									  </li>";
 							}
 						}
-					?> 		           
-		        </div>
-		    </div>
+					?> 
+				</ul>
+			</div>
 		</div>
 		<div class="text">
 			<div class="hline"></div>
@@ -54,7 +57,11 @@
 		<div class="products">
 			<div class="first">
 				<div class="frame">
-					<a href="http://technoprints.ir/?products=%D8%A7%D8%B3%DA%A9%D9%86%D8%B1"><img src="<?php bloginfo('template_url'); ?>/images/scanners.png" alt="barcode scanner" /></a>
+					<span class="preload-frame">
+						<a href="http://technoprints.ir/?products=%D8%A7%D8%B3%DA%A9%D9%86%D8%B1">
+							<img src="<?php bloginfo('template_url'); ?>/images/scanners.png" alt="barcode scanner"/>
+						</a>
+					</span>
 				</div>
 				<div class="desc">
 					<div class="title"><h2>بارکد خوان</h2></div>
@@ -72,9 +79,11 @@
 				</div>
 			</div>
 			<div class="second">
-				<div class="frame">
-					<a href="http://technoprints.ir/?products=%D9%BE%D8%B1%DB%8C%D9%86%D8%AA%D8%B1"><img src="<?php bloginfo('template_url'); ?>/images/printer.png" alt="barcode printer" /></a>
-				</div>
+				<span class="preload-frame">
+					<div class="frame">
+						<a href="http://technoprints.ir/?products=%D9%BE%D8%B1%DB%8C%D9%86%D8%AA%D8%B1"><img src="<?php bloginfo('template_url'); ?>/images/printer.png" alt="barcode printer" /></a>
+					</div>
+				</span>
 				<div class="desc">
 					<div class="title"><h2>چاپگر بارکد</h2></div>
 					<div class="txt">
@@ -90,9 +99,11 @@
 				</div>
 			</div>
 			<div class="third">
-				<div class="frame">
-					<a href="http://technoprints.ir/?products=%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1"><img src="<?php bloginfo('template_url'); ?>/images/application.png" alt="barcode software" /></a>
-				</div>
+				<span class="preload-frame">
+					<div class="frame">
+						<a href="http://technoprints.ir/?products=%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1"><img src="<?php bloginfo('template_url'); ?>/images/application.png" alt="barcode software" /></a>
+					</div>
+				</span>
 				<div class="desc">
 					<div class="title"><h2>نرم افزار</h2></div>
 					<div class="txt">
@@ -110,9 +121,11 @@
 				</div>
 			</div>
 			<div class="forth">
-				<div class="frame">
-					<a href="http://technoprints.ir/?products=%D9%85%D9%88%D8%A7%D8%AF-%D9%85%D8%B5%D8%B1%D9%81%DB%8C"><img src="<?php bloginfo('template_url'); ?>/images/Consumables.png" alt="barcode material" /></a>
-				</div>
+				<span class="preload-frame">
+					<div class="frame">
+						<a href="http://technoprints.ir/?products=%D9%85%D9%88%D8%A7%D8%AF-%D9%85%D8%B5%D8%B1%D9%81%DB%8C"><img src="<?php bloginfo('template_url'); ?>/images/Consumables.png" alt="barcode material" /></a>
+					</div>
+				</span>
 				<div class="desc">
 					<div class="title"><h2>مواد مصرفی</h2></div>
 					<div class="txt">
