@@ -6,6 +6,19 @@
 	<meta charset="UTF-8">
 	<title><?php bloginfo('name'); wp_title(); ?></title>
 
+	<script>
+	  (function() {
+	    var cx = '002646456999169240394:epcygcydjuu';
+	    var gcse = document.createElement('script');
+	    gcse.type = 'text/javascript';
+	    gcse.async = true;
+	    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+	        '//www.google.com/cse/cse.js?cx=' + cx;
+	    var s = document.getElementsByTagName('script')[0];
+	    s.parentNode.insertBefore(gcse, s);
+	  })();
+	</script>
+
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/1styles.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/flexslider.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/lightbox.css" />
@@ -16,15 +29,7 @@
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.flexslider.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/lightbox.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
-	<script>
-		(function() {
-			var cx = '002646456999169240394:15fxoggryg4';
-		    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
-		    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-		        '//www.google.com/cse/cse.js?cx=' + cx;
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
-		})();
-	</script>
+	
     <!--[if lt IE 9]>
 		<script src="<?php bloginfo('template_url'); ?>/js/html5shiv.js"></script>
 	<![endif]-->
