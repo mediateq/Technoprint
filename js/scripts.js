@@ -60,7 +60,7 @@ function validateEmail(str){
 			return !err;
 		});
 	});
-})(Zepto);
+})(jQuery);
 // END valid form
 // Anchor link for scroll
 jQuery.fn.anchorAnimate = function(settings) {
