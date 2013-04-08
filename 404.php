@@ -12,19 +12,28 @@
 					<h2>صفحه یافت نشد</h2>
 				</div>
 				<div id="search">
-					<div class="search-box">
-						<form action="">
-							<input type="text" class="text" placeholder="جستجو" />
-							<input type="submit" value="" class="submit" />
-						</form>
-					</div>
+					<gcse:searchbox-only></gcse:searchbox-only>
 				</div>
 				<div id="menu">
 					<nav>
-						<menu>
-							<li><a href="#"><p>404</p></a><span></span></li>
-							<li><a href="./"><p>صفحه اصلی</p></a><span></span></li>
-						</menu>
+						<?php
+							wp_nav_menu( array(
+								'theme_location'  => 'titlemenu',
+								'menu'            => '', 
+							    'container'       => false, 
+							    'container_class' => '', 
+							    'menu_class'      => '',
+							    'echo'            => true, 
+							    'fallback_cb'     => 'wp_page_menu',
+							    'before'          => '',
+							    'after'           => '',
+							    'link_before'     => '<p>',
+							    'link_after'      => '</p><span></span>',
+							    'items_wrap'      => '<menu>%3$s</menu>',
+							    'depth'           => 0,
+							    'walker'          => ''
+							));
+						?>
 					</nav>
 				</div>
 				<div class="badboy"></div>
