@@ -41,47 +41,17 @@
 		'show_ui' => true,
 		'show_in_menu' => true,
 		'query_var' => true,
-		'rewrite' => true,
+		'rewrite' => false,
 		'capability_type' => 'post',
 		'has_archive' => true,
 		'hierarchical' => false,
-		'menu_position' => 5,
+		'menu_position' => 25,
 		'menu_icon' => get_bloginfo('template_url') . '/images/articleicon.png',
 		'supports' => array('title','editor','thumbnail','excerpt','comments'),
 	);
 
 		register_post_type('article', $args);
 	}
-
-	add_shortcode('article', 'all_article');
-
-	function all_article(){
-		$article = new WP_Query(array(
-		'post_type' => 'article'
-	));
-
-		$html = "<div class='one-article'>";
-
-		while($article->have_posts()){
-			$article->the_post();
-
-			$title   = get_the_title();
-			$content = get_the_content();
-
-			$html 	.= "<div class='detail-article'>
-							<div class='tit'><h2> $title </h2></div>
-							<div class='hline'></div>
-							<div class='text'>
-								$content
-							</div>
-						</div>";
-		}
-
-		$html 	.= "</div>";
-					
-		return $html;
-	}
-
 //////////////////////////// Product page ////////////////////////////////
 	add_action('init', 'product_init');
 
@@ -107,11 +77,11 @@
 		'show_ui' => true,
 		'show_in_menu' => true,
 		'query_var' => true,
-		'rewrite' => true,
+		'rewrite' => false,
 		'capability_type' => 'post',
 		'has_archive' => true,
 		'hierarchical' => false,
-		'menu_position' => 5,
+		'menu_position' => 25,
 		'menu_icon' => get_bloginfo('template_url') . '/images/producticon.png',
 		'supports' => array('title','editor','thumbnail','excerpt'),
 	);
@@ -163,7 +133,7 @@
 				'menu_name' => __( 'دسته بندی محصولات' ),
 			),
 			'rewrite' => array(
-			'slug' => '', 
+			'slug' => 'products', 
 			'with_front' => false, 
 			'hierarchical' => true 
 			),

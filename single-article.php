@@ -1,6 +1,6 @@
 <?php 
 	/*
-		Template Name: article
+		Template Name: Article
 	*/
 	get_template_part('./inc/header') 
 ?>
